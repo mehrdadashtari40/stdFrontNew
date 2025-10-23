@@ -1,0 +1,201 @@
+.trello-item {
+	background-color: #ffffff;
+	padding: 10px 5px;
+	border-radius: 4px;
+	margin: 5px 0;
+	white-space: normal;
+	cursor: pointer;
+	box-shadow: -3px 6px 0 rgba(9,30,66,.25);
+}
+.smooth-dnd-container.vertical > .smooth-dnd-draggable-wrapper {
+	width: 100%;
+	padding: 3px;
+}
+.footer-info , .head-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head-left {
+	padding-top: 5px;
+}
+.react-trello-lane {
+	padding-left: 0;
+}
+.circle-tag {
+	padding: 2px 4px;
+	border-radius: 50%;
+}
+.box-tag {
+	padding: 0 6px;
+	margin: 3px;
+}
+.main-info {
+	padding-top: 5px;
+}
+.main-info {
+	max-width: 300px;
+}
+.bg-green {
+	color: white;
+	background: #4dc721;
+}
+.bg-orange {
+	color: white;
+	background: #c79121;
+}
+.bg-red {
+	color: white;
+	background: #c72121;
+}
+.bg-blue {
+	color: white;
+	background: #2185c7;
+}
+
+.main-info small{
+	color: dimgrey;
+}
+
+.task-user {
+	margin-top: 10px;
+}
+.task-user img{
+	border-radius: 50%;
+	border: 1px solid #00ffa1;
+	margin-left: 5px;
+	width: 40px;
+}
+
+.finish-info{
+	display: flex;
+}
+
+.task-due-time {
+	line-height: 22px;
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.head-left>* {
+    float: left;
+}
+
+.drawer-holder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    text-align: left;
+}
+
+.drawer-holder .menu-container{
+	background: #f4f5f7;
+    min-width: 300px;
+    height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.drawer-holder .menu-container .title{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.drawer-holder .menu-container .close-btn{
+	position: relative;
+    font-size: large;
+    top: -28px;
+    right: 10px;
+	float: right;
+	cursor: pointer;
+}
+
+.drawer-holder .menu-header {
+	border-bottom: 1px solid grey;
+}
+
+.menu-container {
+	padding: 5px;
+}
+
+label.filter-label {
+    display: block;
+    width: 100%;
+    background: #f1f1f1;
+    padding: 5px 13px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.filter-label input{
+    display: none;
+}
+
+label.filter-label:hover {
+    background: #c7c7c7;
+}
+
+label.filter-label.selected {
+    background-color: #00ec23;
+    color: white;
+}
+
+.open-filters-btn {
+    color: white;
+    font-size: 25px;
+    margin: 8px 8px;
+    cursor: pointer;
+    text-shadow: -1px 3px 5px #383838;
+}
+
+label.filter-label i{
+	display: none;
+	float: left;
+    color: #008836;
+}
+
+label.filter-label.selected i{
+	display: block;
+}
+
+hr.filter-hr {
+    margin-bottom: 0;
+    width: 80%;
+    border-color: #cccccc;
+}
+
+label.filter-label.show-more-list {
+    font-size: 10px;
+    color: #00adff;
+}
+
+.task-loader-container {
+	margin-top: 10px;
+    position: relative;
+    right: 50%;
+    height: 24px;
+}
+
+.search-card-container {
+	background: #3179ba;
+	padding: 10px 20px 0px;
+}
+
+input.search-card-input {
+	width: 50%;
+	line-height: 30px;
+	border: 0;
+	border-radius: 5px;
+	background: #ffffffad;
+	padding-right: 5px;
+	font-size: 18px;
+}

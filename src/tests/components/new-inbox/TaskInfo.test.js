@@ -1,0 +1,90 @@
+import React from 'react';
+import { shallow } from 'enzyme';
+import TaskInfo from '../../../views/inbox/components/TaskInfo';
+
+/* Start of SnapShot Test */
+
+jest.mock('react-i18next', () => ({
+	withTranslation: () => Component => {
+		Component.defaultProps = { ...Component.defaultProps, t: () => '' };
+		return Component;
+	},
+}));
+
+
+test('Make Snapshot file , TaskInfo Component', () => {
+	let fakeTaskInfo = {
+		PRO_UID: '1271994115e57596c953e45081760466',
+		TAS_UID: '3232592545e575a11045055091238715',
+		TAS_ID: 235,
+		TAS_TITLE: 'Task 2',
+		TAS_DESCRIPTION: '',
+		TAS_DEF_TITLE: '',
+		TAS_DEF_SUBJECT_MESSAGE: '',
+		TAS_DEF_PROC_CODE: '',
+		TAS_DEF_MESSAGE: '',
+		TAS_DEF_DESCRIPTION: '',
+		TAS_TYPE: 'NORMAL',
+		TAS_DURATION: 1,
+		TAS_DELAY_TYPE: '',
+		TAS_TEMPORIZER: 0,
+		TAS_TYPE_DAY: '',
+		TAS_TIMEUNIT: 'DAYS',
+		TAS_ALERT: 'FALSE',
+		TAS_PRIORITY_VARIABLE: '',
+		TAS_ASSIGN_TYPE: 'SELF_SERVICE',
+		TAS_ASSIGN_VARIABLE: '@@SYS_NEXT_USER_TO_BE_ASSIGNED',
+		TAS_GROUP_VARIABLE: '',
+		TAS_MI_INSTANCE_VARIABLE: '@@SYS_VAR_TOTAL_INSTANCE',
+		TAS_MI_COMPLETE_VARIABLE: '@@SYS_VAR_TOTAL_INSTANCES_COMPLETE',
+		TAS_ASSIGN_LOCATION: 'FALSE',
+		TAS_ASSIGN_LOCATION_ADHOC: 'FALSE',
+		TAS_TRANSFER_FLY: 'FALSE',
+		TAS_LAST_ASSIGNED: '0',
+		TAS_USER: '0',
+		TAS_CAN_UPLOAD: 'FALSE',
+		TAS_VIEW_UPLOAD: 'FALSE',
+		TAS_VIEW_ADDITIONAL_DOCUMENTATION: 'FALSE',
+		TAS_CAN_CANCEL: 'FALSE',
+		TAS_OWNER_APP: 'FALSE',
+		STG_UID: '',
+		TAS_CAN_PAUSE: 'FALSE',
+		TAS_CAN_SEND_MESSAGE: 'TRUE',
+		TAS_CAN_DELETE_DOCS: 'FALSE',
+		TAS_SELF_SERVICE: 'FALSE',
+		TAS_START: 'FALSE',
+		TAS_TO_LAST_USER: 'FALSE',
+		TAS_SEND_LAST_EMAIL: 'FALSE',
+		TAS_DERIVATION: 'NORMAL',
+		TAS_POSX: 247,
+		TAS_POSY: 71,
+		TAS_WIDTH: 110,
+		TAS_HEIGHT: 60,
+		TAS_COLOR: '',
+		TAS_EVN_UID: '',
+		TAS_BOUNDARY: '',
+		TAS_DERIVATION_SCREEN_TPL: '',
+		TAS_SELFSERVICE_TIMEOUT: 0,
+		TAS_SELFSERVICE_TIME: 0,
+		TAS_SELFSERVICE_TIME_UNIT: '',
+		TAS_SELFSERVICE_TRIGGER_UID: '',
+		TAS_SELFSERVICE_EXECUTION: 'EVERY_TIME',
+		TAS_NOT_EMAIL_FROM_FORMAT: 0,
+		TAS_OFFLINE: 'FALSE',
+		TAS_EMAIL_SERVER_UID: '',
+		TAS_AUTO_ROOT: 'FALSE',
+		TAS_RECEIVE_SERVER_UID: '',
+		TAS_RECEIVE_LAST_EMAIL: 'FALSE',
+		TAS_RECEIVE_EMAIL_FROM_FORMAT: 0,
+		TAS_RECEIVE_MESSAGE_TYPE: 'text',
+		TAS_RECEIVE_MESSAGE_TEMPLATE: 'alert_message.html',
+		TAS_RECEIVE_SUBJECT_MESSAGE: null,
+		TAS_RECEIVE_MESSAGE: null,
+		INIT_DATE: '2020-02-27 14:29:38',
+		DUE_DATE: '2020-02-28 14:29:30',
+		FINISH: 'Not finished',
+		DURATION: 'Not finished',
+	};
+	const wrapper = shallow(<TaskInfo taskInfo={fakeTaskInfo} />);
+	expect(wrapper).toMatchSnapshot();
+});

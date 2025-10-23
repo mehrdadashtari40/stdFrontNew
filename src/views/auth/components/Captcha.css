@@ -1,0 +1,18 @@
+canvas{
+    /*prevent interaction with the canvas*/
+    pointer-events:none;
+}
+
+.invalid-code {
+    order: 1px solid red;
+}
+
+.box {
+    width: 120px;
+    display: inline-flex;
+}
+
+.box > i{
+    margin: 10px 20px;
+    cursor: pointer;
+}

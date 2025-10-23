@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , ProcessInfo Component 1`] = `
+<div>
+  <table
+    className="table table-bordered"
+  >
+    <tbody>
+      <tr>
+        <td>
+           
+        </td>
+        <td>
+           
+          test-unassigned
+           
+        </td>
+      </tr>
+      <tr>
+        <td>
+           
+        </td>
+        <td>
+          test unassigned
+        </td>
+      </tr>
+      <tr>
+        <td>
+           
+        </td>
+        <td>
+          شرکت آرین
+        </td>
+      </tr>
+      <tr>
+        <td>
+           
+        </td>
+        <td>
+          Administrator admin
+        </td>
+      </tr>
+      <tr>
+        <td />
+        <td>
+          09:23:48 1398/12/08
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

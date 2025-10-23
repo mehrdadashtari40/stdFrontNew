@@ -1,0 +1,36 @@
+{
+    "Bad Request: The category cannot be deleted while it is still assigned to processes.": "The category cannot be deleted while it is still assigned to processes.",
+    "ProcessMap":"Process Map",
+    "ProcessHistory":"Process History",
+    "ProcessInfo":"Process Information",
+    "ProcessTag":"Assign Tag",
+    "All":"All",
+    "Readed":"Read",
+    "Unreaded":"Unread",
+    "Selected":"Selected",
+    "TaskNumber":"Task Number",
+    "Erja":"Previous",
+    "NotFound":"Not Found !",
+    "First":"First",
+    "Last":"Last",
+    "Next":"Next",
+    "Previous":"Previous",
+    "GoPrevious":"Go To Previos",
+    "GoNext":"Go To Next",
+    "GoFirst":"Go To First Page",
+    "GoLast":"Go To Last Page",
+    "ShowCount":"Count",
+    "Return":"Return",
+    "Activites":"Activites",
+    "Cartable":"Cartable",
+    "inbox":"Inbox",
+    "Sent":"Sent",
+    "Unassigned":"Unassigned",
+    "draft":"Draft",
+    "Process Name" : "Activity Title",
+    "Action": "Action"
+
+
+    
+
+  }

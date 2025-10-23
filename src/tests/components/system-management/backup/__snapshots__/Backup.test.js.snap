@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Backup Component 1`] = `
+<WidgetGrid>
+  <div
+    id="content"
+  >
+    <div
+      className="inbox-nav-bar no-content-padding"
+    >
+      <div
+        className="big-breadcrumbs"
+      >
+        <h1
+          className="page-title txt-color-blueDark"
+        >
+          <i
+            className="fa fa-fw fa-inbox"
+          />
+          تنظیمات
+          <span>
+            <span
+              className="page-title-separator"
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+                
+            </span>
+            نسخه پشتیبان
+          </span>
+        </h1>
+      </div>
+      <div
+        className="row"
+      >
+        <article
+          className="col-sm-12 col-md-12 col-lg-12"
+        >
+          <div
+            className="inbox-checkbox-triggered"
+          >
+            <JarvisWidget
+              collapsed={false}
+              color={false}
+              colorbutton={false}
+              custombutton={false}
+              deletebutton={false}
+              editbutton={false}
+              fullscreenbutton={true}
+              hidden={false}
+              load={false}
+              refresh={false}
+              sortable={true}
+              togglebutton={false}
+            >
+              <header>
+                <nav
+                  className="inbox_header_item_bx"
+                >
+                  <p />
+                </nav>
+              </header>
+              <div
+                className="inbox-body1 no-content-padding1 no-padding"
+                id="inbox-content"
+              >
+                <fieldset>
+                  <section>
+                    <div
+                      className="row"
+                    >
+                      <div
+                        className="col-lg-12"
+                      >
+                        <div
+                          className="center"
+                          style={
+                            Object {
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                          <br />
+                          <button
+                            className="btn btn-primary"
+                            onClick={[Function]}
+                          >
+                            دانلود فایل
+                          </button>
+                          <a
+                            className="hidden"
+                            id="export"
+                          >
+                            export file
+                          </a>
+                          <br />
+                          <br />
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </fieldset>
+              </div>
+              <a
+                className="btn btn-primary pull-right hidden-desktop visible-tablet"
+                id="compose-mail-mini"
+              >
+                <strong>
+                  <i
+                    className="fa fa-file fa-lg"
+                  />
+                </strong>
+              </a>
+            </JarvisWidget>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</WidgetGrid>
+`;

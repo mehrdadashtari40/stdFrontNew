@@ -1,0 +1,46 @@
+.weekdays {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 4px 0;
+    line-height: 1.8;
+}
+.weekdays label{width: 48%;float: right;margin: 1%;}
+.weekdays span{width:60px;display: inline-block;}
+.every {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.everyIn {
+    width: 80px !important;
+}
+.every span {
+    margin: 0 5px;
+    display: inline-block;
+    
+}
+.onetime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onetime span {
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.oneIn {
+    width: 120px !important;
+}
+
+
+
+.mount {
+    display: flex;
+
+}
+ .month_item_title{float: right;width: 70px;display: inline-block;margin: 0 4px;}
+ .first, .seccond{display: flex;width: 100%;justify-content: start;}
+ .month_rad_item{float: right;margin: 0 7px;}
+ .month_txt_style{width: 180px !important;margin: 0 15px;}

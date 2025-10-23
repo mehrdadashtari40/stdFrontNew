@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Login Component 1`] = `
+<div
+  className="login_noscrol"
+  id="extr-page"
+>
+  <div
+    className="animated fadeInDown"
+    id="main"
+    role="main"
+  >
+    <div
+      className="container"
+      id="content"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-12"
+        >
+          <div
+            className="well no-padding login_bx_style"
+          >
+            <UiValidate>
+              <form
+                action=""
+                className="smart-form client-form"
+                id="login-form"
+                method="POST"
+                onSubmit={[Function]}
+                target="my-iframe"
+              >
+                <header>
+                  <img
+                    className="ligin_logo_img"
+                    src="../../../../assets/img/Asset%202.png"
+                  />
+                  <p
+                    className="login_title_app"
+                  >
+                    داشبورد جامع مدیریتی
+                  </p>
+                  <p
+                    className="login_org_name"
+                  >
+                    شرکت آرین نوین رایانه
+                  </p>
+                </header>
+                <fieldset>
+                  <section>
+                    <label
+                      className="input"
+                    >
+                      <i
+                        className="icon-append fa fa-user"
+                      />
+                      <input
+                        data-message-required="لطفا نام کاریری خود را وارد کنید"
+                        data-required=""
+                        data-smart-validate-input=""
+                        dir="ltr"
+                        name="form[USR_USERNAME]"
+                        onChange={[Function]}
+                        placeholder="نام کاربری"
+                        type="text"
+                      />
+                      <b
+                        className="tooltip tooltip-top-right"
+                      >
+                        <i
+                          className="fa fa-user txt-color-teal"
+                        />
+                        لطفا نام کاریری خود را وارد کنید.
+                      </b>
+                    </label>
+                  </section>
+                  <section>
+                    <label
+                      className="input"
+                    >
+                      <i
+                        className="icon-append fa fa-lock"
+                      />
+                      <input
+                        data-maxnlength="20"
+                        data-message="لطفا رمزعبور خود را وارد کنید."
+                        data-minlength="3"
+                        data-required=""
+                        data-smart-validate-input=""
+                        dir="ltr"
+                        name="form[USR_PASSWORD]"
+                        onChange={[Function]}
+                        placeholder="رمز عبور"
+                        type="password"
+                      />
+                      <b
+                        className="tooltip tooltip-top-right"
+                      >
+                        <i
+                          className="fa fa-lock txt-color-teal"
+                        />
+                        رمز عبور را وارد کنید.
+                      </b>
+                    </label>
+                  </section>
+                  <Captcha />
+                </fieldset>
+                <footer>
+                  <button
+                    className="btn_login_page"
+                    type="submit"
+                  >
+                    ورود
+                    <div
+                      id="load-container"
+                    />
+                  </button>
+                </footer>
+              </form>
+            </UiValidate>
+            <iframe
+              name="my-iframe"
+              onLoad={[Function]}
+              sandbox="allow-same-origin allow-scripts allow-forms"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            />
+          </div>
+          <a
+            className="login_footer_info"
+            href="http://arian.co.ir"
+          >
+            <img
+              src="../../../../assets/img/Asset%2019.png"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

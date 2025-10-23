@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , BigBreadcrumbs Component 1`] = `
+<div
+  className="undefined big-breadcrumbs"
+>
+  <h1
+    className="page-title txt-color-blueDark"
+  >
+    <i
+      className="fa fa-fw fa-home"
+    />
+     undefined
+  </h1>
+</div>
+`;

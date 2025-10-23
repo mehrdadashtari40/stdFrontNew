@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Supervisor Component 1`] = `
+<div
+  style={
+    Object {
+      "display": "inline-block",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="col-md-12 border-box"
+  >
+    <div
+      className="margin-top-10"
+    >
+      <div
+        className="table-wrap custom-scroll"
+      >
+        <div
+          className="text-center"
+          style={
+            Object {
+              "margin": 30,
+            }
+          }
+        >
+          <b />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="ServiceModalLabel"
+    className="modal fade"
+    id="caseHistoryModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="ServiceModalLabel"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <div
+                    className="tab-pane active"
+                    id="tab_default_4"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="ServiceModalLabel"
+    className="modal fade"
+    id="processInfoModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="ServiceModalLabel"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <div
+                    className="tab-pane active"
+                    id="tab_default_4"
+                  >
+                    <Spinner />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="ServiceModalLabel"
+    className="modal fade"
+    id="taskInfoModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="ServiceModalLabel"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <div
+                    className="tab-pane active"
+                    id="tab_default_4"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby=""
+    className="modal fade"
+    id="VariableModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id=""
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <table
+                    className="table table-bordered"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          className="center"
+                        >
+                           
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

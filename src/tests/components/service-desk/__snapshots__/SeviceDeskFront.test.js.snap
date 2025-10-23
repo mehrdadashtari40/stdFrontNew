@@ -1,0 +1,885 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , ServiceDeskFrontComponent 1`] = `
+<div
+  className="service_table"
+>
+  <header
+    className="animated fadeInDown"
+    id="header"
+  >
+    <img
+      alt=""
+      className="year_motto"
+      src="assets/img/motto.png"
+    />
+    <div
+      id="logo-group"
+    >
+      <span
+        id="logo"
+      >
+         
+        <img
+          alt=""
+          src="assets/img/logo-mnt-zanjan,tehran.png"
+        />
+         
+      </span>
+    </div>
+    <section
+      className="header_items_bx"
+    >
+      <div>
+        <span
+          className="pull-right"
+        >
+          <a
+            href="/help.pdf"
+          >
+            <i
+              className="fa fa-info"
+              title="راهنمای کاربری "
+            />
+          </a>
+           
+        </span>
+        <a
+          href="#/login"
+        >
+          <i
+            className="fa fa-user"
+            title="ورود "
+          />
+           
+        </a>
+        <div
+          className="date_bx_style"
+        >
+           
+        </div>
+      </div>
+      <div
+        className="leader_logo_bx"
+      >
+        <img
+          alt=""
+          src="assets/img/pic1.jpg"
+        />
+        <img
+          alt=""
+          src="assets/img/pic2.jpg"
+        />
+        <img
+          alt=""
+          src="assets/img/pic3.jpg"
+        />
+      </div>
+    </section>
+  </header>
+  <div
+    id="main"
+    style={
+      Object {
+        "marginTop": "100px",
+      }
+    }
+  >
+    <div
+      className="container"
+      id="content"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xs-12 "
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-9"
+            >
+              <div
+                className="service_table_index_bx first-step"
+              >
+                <div
+                  className="service_menu_bx"
+                >
+                  <div
+                    className="col-xs-5"
+                  >
+                    <ul
+                      className="service_menu_ul"
+                    />
+                  </div>
+                  <div
+                    className="col-xs-7"
+                  >
+                    <div
+                      className="form-group margin-5-10"
+                    >
+                      <div
+                        className="input-group"
+                      >
+                        <input
+                          className="form-control"
+                          id="searchBar"
+                          onChange={[Function]}
+                          placeholder="جستجو"
+                          value=""
+                        />
+                        <span
+                          className="input-group-addon"
+                        >
+                          <i
+                            className="fa fa-search"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-3"
+            >
+              <div
+                className="aside_service_table"
+              >
+                <div>
+                  <section
+                    className="service_info_slider_bx"
+                    id="carousel"
+                  >
+                    <div>
+                      <div
+                        className="carousel slide"
+                        data-interval="3000"
+                        data-ride="carousel"
+                        id="fade-quote-carousel"
+                      >
+                        <div
+                          className="carousel-inner"
+                        >
+                          <div
+                            className="active item"
+                          >
+                            <div
+                              className="services_info_item_bx"
+                            >
+                              <img
+                                className=""
+                                src="../../../../assets/img/service-check.png"
+                              />
+                              <p>
+                                ثبت درخواست
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                            className="item"
+                          >
+                            <div
+                              className="services_info_item_bx"
+                            >
+                              <img
+                                className=""
+                                src="../../../../assets/img/service-track.png"
+                              />
+                              <p>
+                                شکایت
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                            className="item"
+                          >
+                            <div
+                              className="services_info_item_bx"
+                            >
+                              <img
+                                className=""
+                                src="../../../../assets/img/service-law.png"
+                              />
+                              <p>
+                                دستورالعمل
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <h5
+                    className="service_use_title"
+                  >
+                    شهروند گرامی!
+                  </h5>
+                  <p
+                    className="service_info_descript"
+                  >
+                    <i
+                      className="fa fa-quote-right"
+                    />
+                                                                    در راستای احترام به حقوق شهروندی در نظام اداری و به اعتبار چشم انداز خود به عنوان سازمانی «چابک، هوشمند، قانون مدار و پاسخگو » خود را مکلف به ارائه خدمات به موقع، سریع و آسان به ارباب رجوع می دانیم، از همین رو به جهت ارتقاء رضایت مندی شما مراجعه کنندگان گرامی مفتخر هستیم این خدمات را در قالب میزخدمت الکترونیکی در اختیار شما قرار دهیم.
+                    <i
+                      className="fa fa-quote-left"
+                    />
+                  </p>
+                  <a
+                    className="login_btn_style"
+                    href="#/login"
+                  >
+                    <i
+                      className="fa fa-user"
+                    />
+                     ورود به سامانه 
+                  </a>
+                  <a
+                    className="login_btn_style"
+                    href=""
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                  >
+                    <i
+                      className="fa fa-info"
+                    />
+                     دانلود راهنمای کاربری 
+                  </a>
+                  <a
+                    className="login_btn_style"
+                    href=""
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                  >
+                    <i
+                      className="fa fa-android"
+                    />
+                     دانلود اپلیکیشن موبایل
+                  </a>
+                  <a
+                    className="login_btn_style"
+                    style={
+                      Object {
+                        "visibility": "visible",
+                      }
+                    }
+                  >
+                    <i
+                      className="fa fa-question-circle"
+                    />
+                     سوالات متداول
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="footer_bx"
+  >
+    <p
+      className="pull-left"
+    >
+      کلیه حقوق مادی و معنوی این طرح متعلق به شرکت آرین نوین رایانه می باشد.
+    </p>
+    <p
+      className="footer_text"
+    >
+      -----------------------
+    </p>
+    <p
+      className="pull-right"
+    >
+      <a
+        href="http://arian.co.ir"
+      >
+        طراحی و اجرا : آرین نوین رایانه
+      </a>
+    </p>
+  </footer>
+  <div
+    aria-hidden="true"
+    aria-labelledby="myModalLabel"
+    className="modal fade"
+    id="myModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog modal-lg"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="myModalLabel"
+          />
+        </div>
+        <div
+          className="service_modal_tab_style"
+        >
+          <div
+            className="tabbable-panel"
+          >
+            <div
+              className="tabbable-line"
+            >
+              <ul
+                className="nav nav-tabs "
+              >
+                <li
+                  className="active"
+                >
+                  <a
+                    data-toggle="tab"
+                    href="#tab_query_1"
+                  >
+                    شناسنامه خدمت
+                  </a>
+                </li>
+                <li>
+                  <a
+                    data-toggle="tab"
+                    href="#tab_query_2"
+                  >
+                    فلوچارت خدمت
+                  </a>
+                </li>
+                <li>
+                  <a
+                    data-toggle="tab"
+                    href="#tab_query_3"
+                  >
+                    مدارک موردنیاز خدمت
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal-body"
+        >
+          <div
+            className="tab-content service_modal_inner_bx"
+          >
+            <div
+              className="tab-pane active padding-top-0"
+              id="tab_query_1"
+            >
+              <div
+                className="col-sm-8"
+              >
+                <p>
+                   
+                  <span
+                    style={
+                      Object {
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    شناسه یکتای خدمت :
+                  </span>
+                    
+                </p>
+                <p>
+                   
+                  <span
+                    style={
+                      Object {
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    شرح خدمت:
+                  </span>
+                    
+                </p>
+                <p>
+                    
+                  <span
+                    style={
+                      Object {
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    نوع ارائه خدمت : 
+                  </span>
+                </p>
+                <p>
+                  <span
+                    style={
+                      Object {
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    زمان های ارائه خدمت : 
+                  </span>
+                    
+                </p>
+                <p>
+                   
+                  <span
+                    style={
+                      Object {
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    تعداد دفعات مراجعه: 
+                  </span>
+                   
+                </p>
+                <p>
+                   
+                  <a
+                    className="service_flowchart"
+                    href=""
+                  >
+                    دانلود شناسنامه
+                  </a>
+                </p>
+              </div>
+              <div
+                className="col-sm-4"
+              >
+                <div
+                  aria-multiselectable="true"
+                  className="panel-group"
+                  id="accordion"
+                  role="tablist"
+                >
+                  <div
+                    className="panel panel-default"
+                  >
+                    <div
+                      className="panel-heading"
+                      id="headingThree"
+                      role="tab"
+                    >
+                      <h4
+                        className="panel-title"
+                      >
+                        <a
+                          aria-controls="collapse1"
+                          aria-expanded="true"
+                          className="collapsed"
+                          data-parent="#accordion"
+                          data-toggle="collapse"
+                          href="#collapse1"
+                          role="button"
+                        >
+                          <span
+                            style={
+                              Object {
+                                "fontSize": 14,
+                              }
+                            }
+                          >
+                              مدت زمان ارائه خدمت 
+                          </span>
+                          <i
+                            className="fa fa-angle-down service_colapse_icon"
+                          />
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      aria-labelledby="headingThree"
+                      className="panel-collapse collapse"
+                      id="collapse1"
+                      role="tabpanel"
+                    >
+                      <div
+                        className="panel-body"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="panel panel-default"
+                  >
+                    <div
+                      className="panel-heading"
+                      id="headingThree"
+                      role="tab"
+                    >
+                      <h4
+                        className="panel-title"
+                      >
+                        <a
+                          aria-controls="collapse2"
+                          aria-expanded="false"
+                          className="collapsed"
+                          data-parent="#accordion"
+                          data-toggle="collapse"
+                          href="#collapse2"
+                          role="button"
+                        >
+                          هزینه ها 
+                          <i
+                            className="fa fa-angle-down service_colapse_icon"
+                          />
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      aria-labelledby="headingThree"
+                      className="panel-collapse collapse"
+                      id="collapse2"
+                      role="tabpanel"
+                    >
+                      <div
+                        className="panel-body"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="panel panel-default"
+                  >
+                    <div
+                      className="panel-heading"
+                      id="headingThree"
+                      role="tab"
+                    >
+                      <h4
+                        className="panel-title"
+                      >
+                        <a
+                          aria-controls="collapse3"
+                          aria-expanded="false"
+                          className="collapsed"
+                          data-parent="#accordion"
+                          data-toggle="collapse"
+                          href="#collapse3"
+                          role="button"
+                        >
+                          مدارک مورد نیاز 
+                          <i
+                            className="fa fa-angle-down service_colapse_icon"
+                          />
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      aria-labelledby="headingThree"
+                      className="panel-collapse collapse"
+                      id="collapse3"
+                      role="tabpanel"
+                    >
+                      <div
+                        className="panel-body"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="panel panel-default"
+                  >
+                    <div
+                      className="panel-heading"
+                      id="headingThree"
+                      role="tab"
+                    >
+                      <h4
+                        className="panel-title"
+                      >
+                        <a
+                          aria-controls="collapse4"
+                          aria-expanded="false"
+                          className="collapsed"
+                          data-parent="#accordion"
+                          data-toggle="collapse"
+                          href="#collapse4"
+                          role="button"
+                        >
+                          سایر 
+                          <i
+                            className="fa fa-angle-down service_colapse_icon"
+                          />
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      aria-labelledby="headingThree"
+                      className="panel-collapse collapse"
+                      id="collapse4"
+                      role="tabpanel"
+                    >
+                      <div
+                        className="panel-body"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="text-center tab-pane padding-top-0"
+              id="tab_query_2"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 20,
+                  }
+                }
+              >
+                جهت دریافت فلوچارت 
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <strong>
+                    اینجا
+                  </strong>
+                </a>
+                 کلیک کنید
+              </div>
+              <img
+                className="service_flowchart img"
+                id="ChartImage"
+                onClick={[Function]}
+                src=""
+              />
+            </div>
+            <div
+              className="tab-pane padding-top-0"
+              id="tab_query_3"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="myTrackerLabel"
+    className="modal fade"
+    id="myTrackerModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog modal-md"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="myModalLabel"
+          />
+        </div>
+        <div
+          className="service_modal_tab_style"
+        >
+          <div
+            className="tabbable-panel"
+          >
+            <div
+              className="tabbable-line"
+            >
+              <ul
+                className="nav nav-tabs "
+              >
+                <li
+                  className="active"
+                >
+                  <a
+                    data-toggle="tab"
+                    href="#tab_tracker_1"
+                  >
+                    شکایت
+                  </a>
+                </li>
+                <li>
+                  <a
+                    data-toggle="tab"
+                    href="#tab_tracker_2"
+                  >
+                    نظرسنجی
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal-body"
+        >
+          <div
+            className="tab-content service_modal_inner_bx"
+          >
+            <div
+              className="tab-pane active padding-top-0"
+              id="tab_tracker_1"
+            >
+              <form
+                className="display-inline"
+              >
+                <div
+                  className="form-group margin-15"
+                >
+                  <select
+                    className="tracker_itm_drpdwn"
+                    onChange={[Function]}
+                    value={-1}
+                  />
+                </div>
+                <div
+                  className="form-group margin-15"
+                >
+                  <div
+                    className="input-group"
+                  >
+                    <input
+                      className="form-control"
+                      type="text"
+                    />
+                    <span
+                      className="input-group-addon"
+                    >
+                      <i
+                        className="fa fa-barcode"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="form-group margin-15"
+                >
+                  <div
+                    className="input-group"
+                  >
+                    <input
+                      className="form-control"
+                      type="text"
+                    />
+                    <span
+                      className="input-group-addon"
+                    >
+                      <i
+                        className="fa fa-lock"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <input
+                  className="btn btn_service_track"
+                  type="submit"
+                  value="شکایت"
+                />
+              </form>
+            </div>
+            <div
+              className="tab-pane padding-top-0"
+              id="tab_tracker_2"
+            >
+              <form
+                className="smart-form"
+              >
+                <div
+                  className="rating_bx"
+                >
+                  <i>
+                    میزان رضایتمندی
+                  </i>
+                  <RatingAPILayer
+                    direction="ltr"
+                    emptySymbol="fa fa-star-o fa-2x"
+                    fractions={1}
+                    fullSymbol="fa fa-star fa-2x"
+                    initialRating={1}
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    onHover={[Function]}
+                    placeholderSymbol={
+                      Object {
+                        "backgroundColor": "red",
+                        "border": "5px double white",
+                        "borderRadius": "50%",
+                        "display": "inline-block",
+                        "height": 30,
+                        "width": 30,
+                      }
+                    }
+                    quiet={false}
+                    readonly={false}
+                    start={0}
+                    step={1}
+                    stop={5}
+                  />
+                </div>
+                <fieldset>
+                  <section>
+                    <p>
+                      متن نظرسنجی
+                    </p>
+                    <label
+                      className="add_service_lable"
+                      for="ServiceTitle"
+                    >
+                      <textarea
+                        className="add_service_txtbx survey_txtarea"
+                        id="ServiceTitle"
+                        name="ServiceTitle"
+                        onChange={[Function]}
+                        type="text"
+                      />
+                    </label>
+                  </section>
+                </fieldset>
+                <button
+                  className="btn btn_service_track"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  ارسال نظر
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

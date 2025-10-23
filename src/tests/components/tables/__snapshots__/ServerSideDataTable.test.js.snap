@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , ServerSideDataTable Component 1`] = `
+<div>
+  <table
+    aria-describedby="DataTables_Table_7_info"
+    className="table table-striped table-bordered table-hover dataTable no-footer dtr-inline"
+    filter="true"
+    id="DataTables_Table_7"
+    role="grid"
+    width="100%"
+  />
+  <div
+    className="dt-toolbar-footer"
+  >
+    <div
+      className="col-sm-2 col-xs-12 hidden-xs pull-right"
+    >
+      <div
+        className="dataTables_length"
+        id="DataTables_Table_7_length"
+      >
+        <label>
+          نمایش
+          <select
+            aria-controls="DataTables_Table_7"
+            className="form-control input-sm"
+            id="dataTableSize"
+            name="DataTables_Table_7_length"
+            onChange={[Function]}
+          >
+            <option
+              value="10"
+            >
+              10
+            </option>
+            <option
+              value="25"
+            >
+              25
+            </option>
+            <option
+              value="50"
+            >
+              50
+            </option>
+            <option
+              value="100"
+            >
+              100
+            </option>
+          </select>
+           رکورد
+        </label>
+      </div>
+    </div>
+    <div
+      className="col-xs-10 col-sm-6 pagination-centered"
+    >
+      <div
+        className="dataTables_paginate paging_simple_numbers"
+        id="DataTables_Table_7_paginate"
+      />
+    </div>
+  </div>
+</div>
+`;

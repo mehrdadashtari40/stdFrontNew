@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , DaynamicDataTable Component 1`] = `
+<form
+  className="smart-form"
+  id="new-user-form"
+  noValidate="novalidate"
+>
+  <div>
+    <fieldset>
+      <div
+        className="row"
+        style={
+          Object {
+            "marginTop": "10px",
+          }
+        }
+      >
+        <Form
+          edit={false}
+        />
+      </div>
+    </fieldset>
+    <footer>
+      <button
+        className="btn btn-success"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fa fa-check"
+        />
+      </button>
+    </footer>
+  </div>
+</form>
+`;

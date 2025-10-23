@@ -1,0 +1,114 @@
+[
+  {
+    "title": "صندوق دریافتی",
+    "name": "msgs",
+    "data": [
+      {
+        "title": "روابط عمومی",
+        "image": "assets/img/avatars/4.png",
+        "time": "2 دقیقه قبل",
+        "subject": "فرم تصحیح آمار بیمه همکاران",
+        "message": "با احترام لیست اعضای خانواده همکاران جهت تنظیم و تخصیص بیمه تکمیلی ارسال شد",
+        "status": "بررسی نشده",
+        "type": "message"
+        
+      },
+      {
+        "title": "روابط عمومی",
+        "image": "assets/img/avatars/male.png",
+        "time": "2 دقیقه قبل",
+        "subject": "فرم تصحیح آمار بیمه همکاران",
+        "message": "با احترام لیست اعضای خانواده همکاران جهت تنظیم و تخصیص بیمه تکمیلی ارسال شد",
+        "status": "بررسی نشده",
+        "type": "message"
+      },
+      {
+        "title": "روابط عمومی",
+        "image": "assets/img/avatars/sunny.png",
+        "time": "2 دقیقه قبل",
+        "subject": "فرم تصحیح آمار بیمه همکاران",
+        "message": "با احترام لیست اعضای خانواده همکاران جهت تنظیم و تخصیص بیمه تکمیلی ارسال شد",
+        "status": "بررسی نشده",
+        "type": "message"
+      }
+    ]
+  },
+  {
+    "title": "در انتظار اقدام",
+    "name": "notification",
+    "data": [
+      {
+        "icon": "fa-user",
+        "message": "2 new users just signed up! martin.luther and kevin.reliey",
+        "time": "1 min ago...",
+        "type": "notification"
+      },
+      {
+        "icon": "fa-facebook",
+        "message": "Facebook recived +33 unique likes",
+        "time": "4 hrs ago...",
+        "type": "notification"
+      },
+      {
+        "icon": "fa-check",
+        "message": "2 projects were completed on time! Submitted for your approval - Click here",
+        "time": "1 day ago...",
+        "type": "notification"
+      }
+    ]
+  },
+  {
+    "title": "در دست اقدام",
+    "name": "tasks",
+    "data": [
+      {
+        "status": "URGENT",
+        "type": "task",
+        "size": "progress-md progress-striped",
+        "title": "Upgrade Infestructure",
+        "width": 85,
+        "last_update": "12/12/2015"
+      },
+      {
+        "status": "URGENT",
+        "type": "task",
+        "size": "progress-sm",
+        "title": "Code foundation",
+        "width": 65,
+        "last_update": "12/12/2015"
+      },
+      {
+        "status": "Project Plan",
+        "type": "task",
+        "size": "progress-xs",
+        "title": "Code foundation",
+        "width": 25,
+        "last_update": "12/12/2015"
+      },
+      {
+        "status": "CRITICAL",
+        "type": "task",
+        "size": "progress-xs",
+        "title": "Wireframes",
+        "width": 5,
+        "last_update": "12/12/2015"
+      },
+      {
+        "status": "NORMAL",
+        "type": "task",
+        "size": "progress-xs",
+        "title": "Compile hotfix",
+        "width": 99,
+        "last_update": "12/12/2015"
+      },
+      {
+        "status": "MINOR",
+        "type": "task",
+        "size": "progress-micro",
+        "title": "Bug fix #213",
+        "width": 100,
+        "last_update": "12/12/2015"
+      }
+    ]
+  }
+]

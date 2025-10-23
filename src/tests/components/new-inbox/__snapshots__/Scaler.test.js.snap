@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , ScalerChart Component 1`] = `
+<div
+  className="row"
+>
+  <div>
+    <p>
+      test title
+    </p>
+    <h4>
+      test value
+    </h4>
+    <p>
+      test unit
+    </p>
+  </div>
+</div>
+`;

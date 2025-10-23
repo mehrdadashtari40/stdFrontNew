@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , TaskInfo Component 1`] = `
+<div>
+  <table
+    className="table table-bordered"
+  >
+    <tbody>
+      <tr>
+        <td>
+           
+        </td>
+        <td>
+           
+          Task 2
+           
+        </td>
+      </tr>
+      <tr>
+        <td>
+           
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td />
+        <td>
+          14:29:38 1398/12/08
+        </td>
+      </tr>
+      <tr>
+        <td>
+           
+        </td>
+        <td>
+          14:29:30 1398/12/09
+        </td>
+      </tr>
+      <tr>
+        <td>
+           
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+           
+        </td>
+        <td>
+           
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

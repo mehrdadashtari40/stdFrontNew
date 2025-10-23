@@ -1,0 +1,11 @@
+@font-face { font-family: IRANSans; font-style: normal; font-weight: normal; src: url('IRANSansWeb.eot'); src: url('IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('IRANSansWeb.ttf') format('truetype'); }
+
+.rtl_body * { font-family: IRANSans,Tahoma; }
+.rtl_body  h1,h2,h3,h4,h5,h6 { font-family: IRANSans,Tahoma;word-spacing: 2px; }
+.rtl_body  h1 span,h2 span,h3 span,h4 span,h5 span,h6 span { font-family: IRANSans,Tahoma;font-weight:500; }
+.rtl_body  input, textarea ,.rtl_body .smart-form .input input,.rtl_body .smart-form .select select,.rtl_body .smart-form .textarea textarea{
+    font-family: IRANSans !important;
+}
+.rtl_body .MuiTypography-h4 {
+    font-family: IRANSans !important;
+}

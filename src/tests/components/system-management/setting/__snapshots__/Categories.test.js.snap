@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Categories Component 1`] = `
+<div
+  id="content"
+>
+  <div
+    className="row"
+  >
+    <BigBreadcrumbs
+      className="col-xs-12 col-sm-7 col-md-7 col-lg-4"
+      icon="fa fa-fw fa-category"
+      items={
+        Array [
+          "دسته بندی",
+          "مدیریت دسته بندی",
+        ]
+      }
+    />
+  </div>
+  <WidgetGrid>
+    <div
+      className="row"
+    >
+      <article
+        className="col-sm-12"
+      >
+        <JarvisWidget
+          collapsed={false}
+          color={false}
+          colorbutton={false}
+          custombutton={false}
+          deletebutton={false}
+          editbutton={false}
+          fullscreenbutton={true}
+          hidden={false}
+          load={false}
+          refresh={false}
+          sortable={true}
+          togglebutton={false}
+        >
+          <header>
+            <span
+              className="widget-icon"
+            >
+              <i
+                className="fa fa-sitemap"
+              />
+               
+            </span>
+            <h2>
+              فهرست دسته بندی ها
+            </h2>
+            <div
+              className="widget-toolbar"
+            >
+              <a
+                className="btn btn-outline-success little_btn"
+                onClick={[Function]}
+              >
+                 
+                <i
+                  className="fa fa-plus"
+                />
+                <span>
+                  مورد جدید
+                </span>
+              </a>
+            </div>
+          </header>
+          <div
+            className="tab-content"
+            id="myTabContent1"
+          >
+            <div
+              className="tab-pane fade in active"
+            >
+              <Datatable
+                className="display projects-table table table-striped table-bordered table-hover"
+                filter={true}
+                fullTextSearch={false}
+                options={
+                  Object {
+                    "columns": Array [
+                      Object {
+                        "class": "row-controller service-table-row service-id",
+                        "data": null,
+                        "render": [Function],
+                      },
+                      Object {
+                        "class": "row-controller service-table-row",
+                        "data": null,
+                        "render": [Function],
+                      },
+                    ],
+                    "data": Array [],
+                    "iDisplayLength": 10,
+                    "order": Array [
+                      Array [
+                        0,
+                        "asc",
+                      ],
+                    ],
+                  }
+                }
+                paginationLength={true}
+                showAct={[Function]}
+                width="100%"
+              >
+                <thead>
+                  <tr>
+                    <th
+                      className="hasinput"
+                      style={
+                        Object {
+                          "width": "22%",
+                        }
+                      }
+                    >
+                      <input
+                        className="form-control "
+                        id="dateselect_filter"
+                        placeholder=""
+                        type="text"
+                      />
+                    </th>
+                    <th
+                      className="hasinput"
+                      style={
+                        Object {
+                          "width": "5%",
+                        }
+                      }
+                    >
+                      <input
+                        className="form-control "
+                        id="dateselect_filter"
+                        placeholder=""
+                        type="text"
+                      />
+                    </th>
+                  </tr>
+                  <tr>
+                    <th
+                      className="text-center"
+                    />
+                    <th
+                      className="text-center"
+                    />
+                  </tr>
+                </thead>
+              </Datatable>
+            </div>
+          </div>
+        </JarvisWidget>
+      </article>
+    </div>
+  </WidgetGrid>
+  <div
+    className="modal fade-in-up"
+    id="CategoryBox"
+    role="dialog"
+  >
+    <div
+      className="modal-dialog"
+    >
+      <div
+        className="modal-content"
+        id="CategoryBoxBody"
+      >
+        <CategoryForm
+          Data={Array []}
+          Disable={[Function]}
+          Edit={false}
+          Enable={[Function]}
+          Refresh={[Function]}
+          t={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Navigation Component 1`] = `
+<aside
+  id="left-panel"
+>
+  <Connect(LoginInfo) />
+  <nav>
+    <NavMenu
+      closedSign="<i class=\\"fa fa-plus-square-o\\"></i>"
+      openedSign="<i class=\\"fa fa-minus-square-o\\"></i>"
+    />
+  </nav>
+  <MinifyMenu />
+</aside>
+`;

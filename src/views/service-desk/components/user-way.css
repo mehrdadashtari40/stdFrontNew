@@ -1,0 +1,414 @@
+ .btnAccessibility{
+            width: 65px;
+            height:65px;
+            background-color: #37389a ;
+            border-radius: 50%;
+            padding: 1px;
+			position :fixed;
+			bottom:30%;
+			right:8px;
+			z-index:99999;
+        }
+		#myModal{
+			overflow:hidden;
+			top:5%;
+		}
+		#myModal .close{
+			float:left;
+			line-height:1.65;
+		}
+ .btnAccessibility:hover{
+     cursor: pointer;
+ }
+#myModal .modal-title{
+	display:inline-block;
+}
+#myModal .fa-refresh {
+	font-size:24px !important;
+	color:#000;
+	
+}
+#myModal .text{
+	line-height:3;
+	    letter-spacing: 0;
+    word-spacing: 0;
+
+	
+}
+.modal-dialog{
+	
+	font-size:13px;
+}
+        .fillStep {
+            background: #006dd5 !important;
+
+        }
+
+        .stepsVisible {
+            display: flex !important;
+        }
+
+        .changeFont {
+            font-family: Arial, serif !important;
+        }
+
+        .bs-example {
+            margin: 20px;
+        }
+
+        .containerUserWay {
+            display: flex;
+            justify-content: center;
+            border: 1px solid #8b8b8b;
+
+            flex-wrap: wrap;
+        }
+
+        .modal-backdrop {
+            display: none;
+            background: none;
+        }
+
+        .modal-dialog {
+            width: 100vh;
+        }
+
+.btnUserWay {
+
+            width: 133px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border: 1px solid #8b8b8b;
+        }
+.iconUserWay{
+	height:45px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+        .svg-sprite {
+            background-image: url('https://cdn.userway.org/frontend/images/icons-4.svg');
+            background-repeat: no-repeat;
+        }
+
+        /*     پیوند های برجسته    */
+        .icon-highlight-links-dims {
+            width: 34px;
+            height: 17px;
+        }
+
+        .icon-highlight-links,
+        .icon-highlight-links\:regular {
+            background-position: 0 -628px;
+        }
+
+        .highlight-links {
+            text-decoration: underline !important;
+        
+			    color: rgb(255, 255, 0) !important;
+    background-color: rgb(0, 0, 0) !important;
+        }
+
+        /*  تمام*/
+        .icon-contrast_low-dims {
+            width: 34px;
+            height: 31px;
+        }
+
+        .icon-contrast_low,
+        .icon-contrast_low\:regular {
+            background-position: 0 -487px;
+        }
+
+        .icon-cursor-dims {
+            width: 32px;
+            height: 27px;
+        }
+
+        .icon-cursor,
+        .icon-cursor\:regular {
+            background-position: 0 -518px;
+        }
+
+.icon-reading_mask-dims {
+    width: 32px;
+    height: 32px;
+}
+.icon-reading_mask, .icon-reading_mask\:regular {
+    background-position: 0 -1114px;
+}
+
+.icon-guide-dims {
+    width: 32px;
+    height: 26px;
+}
+
+.icon-guide, .icon-guide\:regular {
+    background-position: 0 -602px;
+}
+
+
+
+        .icon-align-left-dims {
+            width: 32px;
+            height: 23px;
+        }
+
+        .icon-align-left,
+        .icon-align-left\:regular {
+            background-position: 0 -24px;
+        }
+
+
+.icon-align-right-dims {
+    width: 32px;
+    height: 24px;
+}
+
+.icon-align-right, .icon-align-right\:regular {
+    background-position: 0 -47px;
+}
+.icon-align-center-dims {
+    width: 32px;
+    height: 24px;
+}
+
+.icon-align-center, .icon-align-center\:regular {
+    background-position: 0 0;
+}
+
+.icon-justify-dims {
+    width: 32px;
+    height: 24px;
+}
+.icon-justify, .icon-justify\:regular {
+    background-position: 0 -656px;
+}
+        .icon-line-height-1-5x-dims {
+            width: 47px;
+            height: 20px;
+        }
+
+        .icon-line-height-1-5x,
+        .icon-line-height-1-5x\:regular {
+            background-position: 0 -723px;
+        }
+
+        .icon-dyslexia-dims {
+            width: 30px;
+            height: 22px;
+        }
+
+        .icon-dyslexia,
+        .icon-dyslexia\:regular {
+            background-position: 0 -568px;
+        }
+
+        .icon-btext_5-dims {
+            width: 49px;
+            height: 50px;
+        }
+
+        .icon-btext_5,
+        .icon-btext_5\:regular {
+            background-position: 0 -307px;
+        }
+
+        .icon-tooltip-dims {
+            width: 32px;
+            height: 28px;
+        }
+
+        .icon-tooltip,
+        .icon-tooltip\:regular {
+            background-position: 0 -1286px;
+        }
+
+
+.icon-text_spacing_medium-dims {
+    width: 64px;
+    height: 14px;
+}
+
+.icon-text_spacing_medium, .icon-text_spacing_medium\:regular {
+    background-position: 0 -1258px;
+}
+        .modal-header .close {
+            padding: 0;
+            margin: 0;
+        }
+
+        .customHeaderModal {
+            background: #37389a;
+            line-height:2;
+			    letter-spacing: 0;
+    word-spacing: 0;
+	    text-align: right;
+
+
+        }
+
+        .customHeaderModal h5,
+        .customHeaderModal .close {
+
+            color: #fff;
+        }
+
+        .selectedModal {
+            border: 3px solid #006DD5;
+            border-radius: 8px;
+        }
+
+        .text {
+            font-size: 12px;
+        }
+
+        .steps {
+direction:ltr;
+            left: 5px;
+            right: 5px;
+            bottom: 4px;
+            height: 5px;
+            background: transparent;
+            display: none;
+          
+			margin-bottom: 8px;
+        }
+
+        .steps>div {
+            height: 4px;
+            border-radius: 2px;
+            width: 20px;
+            margin: 0 2px;
+            background: rgba(0, 109, 213, 0.18);
+        }
+
+        /* easy  read*/
+        .cursorDim {
+            cursor: url(https://cdn.userway.org/widgetapp/images/arrow_w.svg), auto !important;
+        }
+
+        /*end easy read*/
+
+
+		
+		/* line-heght*/
+		.lineHeight1 {
+           line-height: 3.25 !important;
+        }
+
+        .lineHeight2 {
+            line-height: 3.75 !important;
+        }
+
+        .lineHeight3 {
+            line-height: 4 !important;
+        }
+
+        .lineHeight4 {
+            line-height: 4.25 !important;
+        }
+/* word-spacing*/
+		.wordSpacing1 {
+         word-spacing: .16em!important;
+    letter-spacing: .12em!important;
+        }
+
+        .wordSpacing2 {
+              word-spacing: .32em!important;
+    letter-spacing: .24em!important;
+        }
+
+        .wordSpacing3 {
+              word-spacing: .48em!important;
+    letter-spacing: .36em!important;
+        }
+
+        .wordSpacing4 {
+               word-spacing: .64em!important;
+    letter-spacing: .48em!important;
+        }
+		
+	/* text-align*/	
+	
+		.alignTextLeft {
+                    text-align:left !important;
+        }
+
+        .alignTextRight {
+   text-align:right !important;
+
+        }
+
+        .alignTextCenter {
+      text-align:center !important;
+
+        }
+
+        .alignTextJustify {
+       text-align:justify !important;
+
+        }
+		/*  end  text-align  */
+		
+		/* */
+		    .lineTop{
+        background:rgba(0, 0, 0, 0.5) !important;
+           position: fixed;
+           top: 0;
+           height: 0;
+           width: 100%;
+           border-bottom: 8px solid rgb(0, 44, 176);
+		   z-index:9999999;
+     }    
+     .lineBottom{
+         background:rgba(0, 0, 0, 0.5) !important;
+         position:fixed ;
+         bottom: 0;
+         height: 0;
+         width: 100%;
+         border-top: 8px solid rgb(0, 205, 136);
+		 		 z-index:9999999;
+
+     }  
+	 
+	 /* easy read part3 */
+.underLine {
+  position: absolute !important;
+  background-color: black!important;
+  height: 18px;
+  width: 40%;
+  margin: auto;
+  border: #fc0 solid 4px; 
+  
+  border-radius:6px;
+  z-index: 9999999;
+}
+
+.underLine::after {
+  content: '';
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  background-color: black;
+  top: -12px;
+  left: 45%;
+  border-top: #fc0 solid 3px;
+  border-left: #fc0 solid 3px;
+  transform: rotate(45deg);
+}
+.btnFooter{
+	width:100%;
+	height:40px;
+}
+
+.changeColor1{
+	color:red !important;
+}
+.changeColor2{
+	color:blue !important;
+}

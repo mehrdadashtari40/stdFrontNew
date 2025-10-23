@@ -1,0 +1,622 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Design Component 1`] = `
+<div
+  id="content"
+>
+  <div
+    className="row"
+  >
+    <BigBreadcrumbs
+      className="col-xs-12 col-sm-7 col-md-7 col-lg-4"
+      icon="fa fa-fw fa-circle-o-notch"
+      items={
+        Array [
+          "فرایند",
+          "مدیریت فرآیند",
+        ]
+      }
+    />
+  </div>
+  <WidgetGrid>
+    <div
+      className="row"
+    >
+      <article
+        className="col-sm-12 col-md-12 col-lg-12"
+      >
+        <JarvisWidget
+          collapsed={false}
+          color={false}
+          colorbutton={false}
+          custombutton={false}
+          deletebutton={false}
+          editbutton={false}
+          fullscreenbutton={true}
+          hidden={false}
+          load={false}
+          refresh={false}
+          sortable={true}
+          togglebutton={false}
+        >
+          <header>
+            <span
+              className="widget-icon"
+            >
+              <i
+                className="glyphicon glyphicon-edit txt-color-darken"
+              />
+            </span>
+            <h2>
+              طراحی فرایند
+            </h2>
+            <div
+              className="progress_btn_bx"
+            >
+              <button
+                className="btn btn_inbox"
+                id="handleAssignVariable"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-check-square-o"
+                />
+                <span />
+              </button>
+              <button
+                className="btn btn_inbox"
+                id="exportProcess"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-download"
+                />
+                <span />
+              </button>
+              <a
+                className="hidden"
+                id="export"
+              >
+                export file
+              </a>
+              <button
+                className="btn btn_inbox"
+                data-target="#importModal"
+                data-toggle="modal"
+              >
+                <i
+                  className="fa fa-upload"
+                />
+                <span />
+              </button>
+              <button
+                className="btn btn_inbox"
+                data-target="#myModal"
+                data-toggle="modal"
+              >
+                <i
+                  className="fa fa-plus"
+                />
+                <span />
+              </button>
+              <button
+                className="btn btn_inbox"
+                href="#/outlook/folder/paused"
+                id="deactivateProcess"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-stop"
+                />
+              </button>
+              <button
+                className="btn btn_inbox"
+                href="#/outlook/folder/paused"
+                id="deleteProcess"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-close"
+                />
+              </button>
+              <button
+                className="btn btn_inbox"
+                href="#/outlook/folder/paused"
+                id="deleteCases"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-ban"
+                />
+              </button>
+            </div>
+          </header>
+          <div
+            className="no-padding"
+          >
+            <Datatable
+              cellSpacing="0"
+              className="display projects-table table table-striped table-bordered table-hover"
+              filter={true}
+              fullTextSearch={false}
+              options={
+                Object {
+                  "buttons": false,
+                  "columns": Array [
+                    Object {
+                      "class": "",
+                      "data": null,
+                      "defaultContent": "",
+                      "orderable": false,
+                      "render": [Function],
+                    },
+                    Object {
+                      "class": "row-controller process-designer",
+                      "data": "PRO_TITLE",
+                    },
+                    Object {
+                      "class": "row-controller process-designer",
+                      "data": "PRO_CATEGORY_LABEL",
+                      "render": [Function],
+                    },
+                    Object {
+                      "class": "row-controller process-designer",
+                      "data": "PRO_STATUS",
+                      "render": [Function],
+                    },
+                    Object {
+                      "class": "row-controller process-designer",
+                      "data": "CASES_COUNT",
+                    },
+                    Object {
+                      "class": "row-controller process-designer",
+                      "data": "CASES_COUNT_COMPLETED",
+                    },
+                    Object {
+                      "class": "hide id",
+                      "data": "PRO_UID",
+                    },
+                  ],
+                  "data": Array [],
+                  "iDisplayLength": 10,
+                  "order": Array [
+                    Array [
+                      1,
+                      "asc",
+                    ],
+                  ],
+                  "rowID": ".hide.id",
+                }
+              }
+              paginationLength={true}
+              width="100%"
+            >
+              <thead>
+                <tr>
+                  <th
+                    style={
+                      Object {
+                        "width": "3%",
+                      }
+                    }
+                  />
+                  <th
+                    className="hasinput"
+                  >
+                    <input
+                      className="form-control"
+                      placeholder=""
+                      type="text"
+                    />
+                  </th>
+                  <th
+                    className="hasinput"
+                    style={
+                      Object {
+                        "width": "15%",
+                      }
+                    }
+                  >
+                    <input
+                      className="form-control datepicker"
+                      data-dateformat="yy/mm/dd"
+                      id="dateselect_filter"
+                      placeholder=""
+                      type="text"
+                    />
+                  </th>
+                  <th
+                    className="hasinput"
+                    style={
+                      Object {
+                        "width": "8%",
+                      }
+                    }
+                  >
+                    <input
+                      className="form-control datepicker"
+                      data-dateformat="yy/mm/dd"
+                      id="dateselect_filter"
+                      placeholder=""
+                      type="text"
+                    />
+                  </th>
+                  <th
+                    className="hasinput"
+                    style={
+                      Object {
+                        "width": "13%",
+                      }
+                    }
+                  >
+                    <input
+                      className="form-control"
+                      placeholder=""
+                      type="text"
+                    />
+                  </th>
+                  <th
+                    className="hasinput"
+                    style={
+                      Object {
+                        "width": "13%",
+                      }
+                    }
+                  >
+                    <input
+                      className="form-control"
+                      placeholder=""
+                      type="text"
+                    />
+                  </th>
+                </tr>
+                <tr>
+                  <th />
+                  <th />
+                  <th />
+                  <th />
+                  <th />
+                  <th />
+                </tr>
+              </thead>
+            </Datatable>
+          </div>
+        </JarvisWidget>
+      </article>
+    </div>
+  </WidgetGrid>
+  <div
+    aria-labelledby="myModalLabel"
+    className="modal fade"
+    id="myModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      role="document"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-label="Close"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ×
+            </span>
+          </button>
+          <h4
+            className="modal-title"
+            id="myModalLabel"
+          />
+        </div>
+        <div
+          className="modal-body"
+        >
+          <div
+            className="smart-form"
+          >
+            <fieldset>
+              <section>
+                <label
+                  className="input"
+                >
+                  <i
+                    className="icon-append fa fa-question-circle"
+                  />
+                  <input
+                    onChange={[Function]}
+                    placeholder=""
+                    type="text"
+                    value=""
+                  />
+                  <b
+                    className="tooltip tooltip-top-right"
+                  >
+                    <i
+                      className="fa fa-warning txt-color-teal"
+                    />
+                  </b>
+                </label>
+              </section>
+              <section>
+                <label
+                  className="textarea"
+                >
+                  <i
+                    className="icon-append fa fa-question-circle"
+                  />
+                  <textarea
+                    onChange={[Function]}
+                    placeholder=""
+                    rows="3"
+                    value=""
+                  />
+                  <b
+                    className="tooltip tooltip-top-right"
+                  >
+                    <i
+                      className="fa fa-warning txt-color-teal"
+                    />
+                  </b>
+                </label>
+              </section>
+              <section>
+                <label
+                  className="label"
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <label
+                  className="select"
+                >
+                  <select
+                    onChange={[Function]}
+                    value={0}
+                  >
+                    <option
+                      value="0"
+                    />
+                  </select>
+                  <i />
+                </label>
+              </section>
+            </fieldset>
+          </div>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn btn-default"
+            data-dismiss="modal"
+            type="button"
+          />
+          <button
+            className="btn btn-primary"
+            data-dismiss="modal"
+            onClick={[Function]}
+            type="button"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-labelledby="myImportModalLabel"
+    className="modal fade"
+    id="importModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      role="document"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-label="Close"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ×
+            </span>
+          </button>
+          <h4
+            className="modal-title"
+            id="myModalLabel"
+          />
+        </div>
+        <div
+          className="modal-body"
+        >
+          <div
+            className="smart-form"
+          >
+            <fieldset>
+              <section>
+                <input
+                  id="project_file"
+                  name="project_file"
+                  type="hidden"
+                />
+                <t
+                  config={
+                    Object {
+                      "iconFiletypes": Array [
+                        ".pmx",
+                      ],
+                      "postUrl": "http://ls.arian.co.ir:8081/api/1.0/zums/anrupload/upload?workspace=zums",
+                      "showFiletypeIcon": true,
+                    }
+                  }
+                  djsConfig={Object {}}
+                  eventHandlers={
+                    Object {
+                      "success": [Function],
+                    }
+                  }
+                />
+              </section>
+              <section>
+                <label
+                  className="label"
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <label
+                  className="select"
+                >
+                  <select
+                    id="import_option"
+                    name="import_option"
+                  >
+                    <option
+                      value="CREATE"
+                    />
+                    <option
+                      value="OVERWRITE"
+                    />
+                    <option
+                      value="DISABLE"
+                    />
+                    <option
+                      value="KEEP"
+                    />
+                  </select>
+                  <i />
+                </label>
+              </section>
+            </fieldset>
+          </div>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn btn-default"
+            data-dismiss="modal"
+            type="button"
+          />
+          <button
+            className="btn btn-primary"
+            id="importBtn"
+            onClick={[Function]}
+            type="button"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="modal fade-in-up"
+    id="assignVariableModal"
+    role="dialog"
+  >
+    <div
+      className="modal-dialog modal-full"
+    >
+      <div
+        className="modal-content"
+        id="selectFieldBody"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+          />
+        </div>
+        <div
+          className="modal-body"
+        >
+          <div
+            className="alert alert-danger"
+          >
+            <p>
+              متغیری برای انتصاب وجود ندارد
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="modal fade-in-up"
+    id="selectProcessTaskModal"
+    role="dialog"
+  >
+    <div
+      className="modal-dialog modal-full"
+    >
+      <div
+        className="modal-content"
+        id="selectFieldBody"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+          >
+             زمانبند 
+          </h4>
+        </div>
+        <div
+          className="modal-body"
+        >
+          <div
+            className="alert alert-danger"
+          >
+            <p>
+              متغیری برای انتصاب وجود ندارد
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

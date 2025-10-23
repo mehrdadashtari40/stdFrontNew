@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , LoginInfo Component 1`] = `
+<div
+  className="login-info"
+>
+  <span>
+    <Connect(ToggleShortcut)>
+      <img
+        alt="me"
+        className="online"
+        src={null}
+      />
+      <span />
+      <i
+        className="fa fa-angle-down"
+      />
+    </Connect(ToggleShortcut)>
+  </span>
+</div>
+`;

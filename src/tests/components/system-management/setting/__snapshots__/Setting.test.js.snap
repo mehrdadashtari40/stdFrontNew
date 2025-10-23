@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Setting Component 1`] = `
+<WidgetGrid>
+  <div
+    id="content"
+  >
+    <div
+      className="inbox-nav-bar no-content-padding"
+    >
+      <div
+        className="big-breadcrumbs"
+      >
+        <h1
+          className="page-title txt-color-blueDark"
+        >
+          <i
+            className="fa fa-fw fa-inbox"
+          />
+          تنظیمات
+          <span>
+            <span
+              className="page-title-separator"
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+                
+            </span>
+            صفحه نخست
+          </span>
+        </h1>
+      </div>
+      <div
+        className="row"
+      >
+        <article
+          className="col-sm-12 col-md-12 col-lg-12"
+        >
+          <div
+            className="inbox-checkbox-triggered"
+          >
+            <JarvisWidget
+              collapsed={false}
+              color={false}
+              colorbutton={false}
+              custombutton={false}
+              deletebutton={false}
+              editbutton={false}
+              fullscreenbutton={true}
+              hidden={false}
+              load={false}
+              refresh={false}
+              sortable={true}
+              togglebutton={false}
+            >
+              <header>
+                <nav
+                  className="inbox_header_item_bx"
+                >
+                  <p>
+                    انتخاب صفحه نخست
+                  </p>
+                </nav>
+              </header>
+              <div
+                className="inbox-body1 no-content-padding1 no-padding"
+                id="inbox-content"
+              >
+                <fieldset>
+                  <section
+                    style={
+                      Object {
+                        "padding": 50,
+                      }
+                    }
+                  >
+                    <label
+                      className="label"
+                    >
+                      گزینه های انتخابی
+                    </label>
+                    <div
+                      className="inline-group"
+                    >
+                      <label
+                        className="radio"
+                        style={
+                          Object {
+                            "marginRight": 20,
+                          }
+                        }
+                      >
+                        <input
+                          id="default"
+                          name="defaultPage"
+                          onChange={[Function]}
+                          type="radio"
+                          value="default"
+                        />
+                        <i />
+                        کارتابل
+                      </label>
+                      <label
+                        className="radio"
+                        style={
+                          Object {
+                            "marginRight": 20,
+                          }
+                        }
+                      >
+                        <input
+                          id="inbox"
+                          name="defaultPage"
+                          onChange={[Function]}
+                          type="radio"
+                          value="outlook/folder/todo"
+                        />
+                        <i />
+                        داشبورد
+                      </label>
+                      <label
+                        className="radio"
+                        style={
+                          Object {
+                            "marginRight": 20,
+                          }
+                        }
+                      >
+                        <input
+                          id="analytical"
+                          name="defaultPage"
+                          onChange={[Function]}
+                          type="radio"
+                          value="dashboard/analytical"
+                        />
+                        <i />
+                        داشبورد تحلیلی
+                      </label>
+                      <label
+                        className="radio"
+                        style={
+                          Object {
+                            "marginRight": 20,
+                          }
+                        }
+                      >
+                        <input
+                          id="guest"
+                          name="defaultPage"
+                          onChange={[Function]}
+                          type="radio"
+                          value="dashboard/guest"
+                        />
+                        <i />
+                        داشبورد مهمان
+                      </label>
+                    </div>
+                    <br />
+                    <div
+                      className="row"
+                    >
+                      <button
+                        className="btn btn-success"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        ثبت
+                      </button>
+                    </div>
+                  </section>
+                </fieldset>
+              </div>
+              <a
+                className="btn btn-primary pull-right hidden-desktop visible-tablet"
+                id="compose-mail-mini"
+              >
+                <strong>
+                  <i
+                    className="fa fa-file fa-lg"
+                  />
+                </strong>
+              </a>
+            </JarvisWidget>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</WidgetGrid>
+`;

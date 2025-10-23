@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Form Component 1`] = `
+<div>
+  <SectionTextField
+    fontAwsName="fa-user"
+    gridClass="col-lg-6"
+    key="0"
+    type="text"
+    value={null}
+  />
+  <SectionTextField
+    fontAwsName="fa-user"
+    gridClass="col-lg-6"
+    key="1"
+    type="text"
+    value={null}
+  />
+  <SectionTextField
+    fontAwsName="fa-user"
+    gridClass="col-lg-6"
+    key="2"
+    type="text"
+    value={null}
+  />
+  <SectionTextField
+    fontAwsName="fa-user"
+    gridClass="col-lg-6"
+    key="3"
+    type="text"
+    value={null}
+  />
+</div>
+`;

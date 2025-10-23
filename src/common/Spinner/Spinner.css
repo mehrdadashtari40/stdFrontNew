@@ -1,0 +1,7 @@
+.spinner {
+    width: 200px;
+    text-align: center;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+}

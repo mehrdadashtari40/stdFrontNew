@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Users Component 1`] = `
+<div
+  id="content"
+>
+  <div
+    className="row"
+  >
+    <BigBreadcrumbs
+      className="col-xs-12 col-sm-7 col-md-7 col-lg-4"
+      icon="fa fa-fw fa-users"
+      items={
+        Array [
+          "کاربران",
+          "مدیریت کاربران",
+        ]
+      }
+    />
+  </div>
+  <WidgetGrid>
+    <div
+      className="row"
+    >
+      <article
+        className="col-sm-12"
+      >
+        <JarvisWidget
+          collapsed={false}
+          color={false}
+          colorbutton={false}
+          custombutton={false}
+          deletebutton={false}
+          editbutton={false}
+          fullscreenbutton={true}
+          hidden={false}
+          load={false}
+          refresh={false}
+          sortable={true}
+          togglebutton={false}
+        >
+          <header>
+            <span
+              className="widget-icon"
+            >
+               
+              <i
+                className="fa fa-bars"
+              />
+               
+            </span>
+            <h2>
+               
+            </h2>
+            <div
+              className="widget-toolbar"
+            >
+              <a
+                className="btn btn-outline-success little_btn"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-plus"
+                />
+                <span>
+                   
+                </span>
+              </a>
+            </div>
+          </header>
+          <div
+            className="tab-content"
+            id="myTabContent1"
+            role="content"
+          >
+            <div
+              className="tab-pane fade in active"
+            >
+              <div
+                className="dataTables_wrapper form-inline dt-bootstrap no-footer"
+                id="DataTables_Table_7_wrapper"
+              >
+                <DataTableServerSide
+                  filter=""
+                  getDataList={[Function]}
+                  refresh={false}
+                  url="http://ls.arian.co.ir:8081/api/1.0/zums/users/anr-list"
+                >
+                  <thead>
+                    <tr
+                      role="row"
+                    >
+                      <th
+                        colSpan="7"
+                      >
+                        <div
+                          className="row"
+                        >
+                          <div
+                            className="col col-md-11"
+                          >
+                            <input
+                              className="form-control searchBox"
+                              id="searchBox"
+                              onChange={[Function]}
+                              placeholder=""
+                              style={
+                                Object {
+                                  "width": "100%",
+                                }
+                              }
+                              type="text"
+                            />
+                          </div>
+                          <div
+                            className="col col-md-1"
+                          >
+                            <button
+                              className="btn btn-success"
+                              id="filterUser"
+                              onClick={[Function]}
+                            >
+                              جستجو
+                            </button>
+                          </div>
+                        </div>
+                      </th>
+                    </tr>
+                    <tr
+                      role="row"
+                    >
+                      <th
+                        aria-controls="DataTables_Table_7"
+                        aria-label="نام کاربری: مرتب سازی"
+                        aria-sort="ascending"
+                        className="sorting_asc"
+                        colspan="1"
+                        data-hide="phone"
+                        rowspan="1"
+                        tabindex="0"
+                      >
+                        <i
+                          className="fa fa-fw fa-user text-muted hidden-md hidden-sm hidden-xs"
+                        />
+                        نام کاربری
+                      </th>
+                      <th
+                        aria-controls="DataTables_Table_7"
+                        aria-label="نام و نام خانوادگی: مرتب سازی"
+                        className="expand sorting"
+                        colspan="1"
+                        data-className="expand"
+                        rowspan="1"
+                        tabindex="0"
+                      >
+                        <i
+                          className="fa fa-fw fa-user text-muted hidden-md hidden-sm hidden-xs"
+                        />
+                        نام و نام خانوادگی
+                      </th>
+                      <th
+                        abindex="0"
+                        aria-controls="DataTables_Table_7"
+                        aria-label="وضعیت: مرتب سازی"
+                        className="sorting"
+                        colspan="1"
+                        data-hide="phone"
+                        rowspan="1"
+                      >
+                        <i
+                          className="fa fa-fw fa-star text-muted hidden-md hidden-sm hidden-xs"
+                        />
+                        وضعیت
+                      </th>
+                      <th
+                        aria-controls="DataTables_Table_7"
+                        aria-label="نقش: مرتب سازی"
+                        className="sorting"
+                        colspan="1"
+                        rowspan="1"
+                        tabindex="0"
+                      >
+                        نقش
+                      </th>
+                      <th
+                        aria-controls="DataTables_Table_7"
+                        aria-label="دپارتمان: مرتب سازی"
+                        className="sorting"
+                        colSpan="1"
+                        rowSpan="1"
+                        tabIndex="0"
+                      >
+                        دپارتمان
+                      </th>
+                      <th
+                        aria-controls="DataTables_Table_7"
+                        aria-label="آخرین ورود: مرتب سازی"
+                        className="sorting"
+                        colspan="1"
+                        data-hide="phone,tablet"
+                        rowspan="1"
+                        tabindex="0"
+                      >
+                        <i
+                          className="fa fa-fw fa-rotate-left txt-color-blue hidden-md hidden-sm hidden-xs"
+                        />
+                        آخرین ورود
+                      </th>
+                      <th
+                        aria-controls="DataTables_Table_7"
+                        aria-label="آخرین ورود: مرتب سازی"
+                        className="sorting"
+                        colspan="1"
+                        data-hide="phone,tablet"
+                        rowspan="1"
+                        tabindex="0"
+                      >
+                        <i
+                          className="fa fa-cog fa-rotate-left txt-color-blue hidden-md hidden-sm hidden-xs"
+                        />
+                        عملیات
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody />
+                </DataTableServerSide>
+              </div>
+            </div>
+          </div>
+        </JarvisWidget>
+      </article>
+    </div>
+  </WidgetGrid>
+  <div
+    className="modal fade-in-up"
+    data-backdrop="static"
+    data-keyboard="false"
+    id="UserBox"
+    role="dialog"
+  >
+    <div
+      className="modal-dialog modal-lg"
+    >
+      <div
+        className="modal-content"
+        id="UserBoxBody"
+      >
+        <Form
+          Data={Array []}
+          Disable={[Function]}
+          Edit={false}
+          Enable={[Function]}
+          Refresh={[Function]}
+          getRefreshStatus={[Function]}
+          t={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="modal fade-in-up"
+    data-backdrop="static"
+    data-keyboard="false"
+    id="changePassword"
+    role="dialog"
+  >
+    <div
+      className="modal-dialog modal-lg"
+    >
+      <div
+        className="modal-content"
+      >
+        <form
+          className="smart-form"
+          id="change-user-password"
+          noValidate="novalidate"
+          onSubmit={[Function]}
+        >
+          <div
+            className="modal-header"
+          >
+            <button
+              aria-hidden="true"
+              className="close"
+              data-dismiss="modal"
+              id="modalClose"
+              type="button"
+            >
+              ×
+            </button>
+            <h4
+              className="modal-title"
+            />
+          </div>
+          <div>
+            <fieldset>
+              <div
+                className="row"
+              >
+                <section
+                  className="col col-6"
+                >
+                  <label>
+                    <strong
+                      style={
+                        Object {
+                          "color": "red",
+                        }
+                      }
+                    >
+                      *
+                    </strong>
+                  </label>
+                  <label
+                    className="input"
+                  >
+                    <i
+                      className="icon-prepend fa fa-lock"
+                    />
+                    <input
+                      id="ch_usr_new_pass"
+                      name="usr_new_pass"
+                      placeholder=""
+                      type="password"
+                    />
+                  </label>
+                  <div
+                    className="help-block text-danger"
+                    id="passwordValidationChangeMsg"
+                    style={
+                      Object {
+                        "color": "#d44950",
+                      }
+                    }
+                  />
+                </section>
+                <section
+                  className="col col-6"
+                >
+                  <label>
+                    <strong
+                      style={
+                        Object {
+                          "color": "red",
+                        }
+                      }
+                    >
+                      *
+                    </strong>
+                  </label>
+                  <label
+                    className="input"
+                  >
+                    <i
+                      className="icon-prepend fa fa-lock"
+                    />
+                    <input
+                      id="ch_usr_cnf_pass"
+                      name="usr_cnf_pass"
+                      placeholder=""
+                      type="password"
+                    />
+                  </label>
+                  <div
+                    className="help-block text-danger"
+                    id="confirmPasswordChangeValidationMsg"
+                    style={
+                      Object {
+                        "color": "#d44950",
+                      }
+                    }
+                  />
+                </section>
+              </div>
+            </fieldset>
+          </div>
+          <footer>
+            <button
+              className="btn btn-success"
+              type="submit"
+            >
+              <i
+                className="fa fa-check"
+              />
+            </button>
+          </footer>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , NavMenu Component 1`] = `
+<SmartMenuList
+  items={
+    Array [
+      Object {
+        "_id": "tssgdtae3jl",
+        "icon": "fa fa-lg fa-fw fa-star",
+        "route": "createNewCase",
+        "title": "فعالیت جدید",
+      },
+      Object {
+        "_id": "afm4suscvq5",
+        "icon": "fa fa-lg fa-fw fa-inbox",
+        "route": "/newInbox",
+        "title": "کارتابل",
+      },
+      Object {
+        "_id": "cha4y42ty46",
+        "icon": "fa fa-lg fa-fw fa-circle-o-notch",
+        "route": "/processes/design",
+        "title": "مدیریت فرایندها",
+      },
+      Object {
+        "_id": "ozmurmonn3",
+        "icon": "fa fa-lg fa-fw fa-cogs",
+        "items": Array [
+          Object {
+            "_id": "1e4y6sis0ac",
+            "icon": "fa fa-lg fa-fw fa-cog",
+            "items": Array [
+              Object {
+                "_id": "fmbo4yvdt0r",
+                "icon": "fa fa-lg fa-fw fa-sitemap",
+                "route": "/processes/categories",
+                "title": "دسته بندی های فرایند",
+              },
+              Object {
+                "_id": "s45cx7ufp89",
+                "icon": "fa fa-lg fa-fw fa-database",
+                "route": "/pm-tables/pm-tables",
+                "title": "جداول پایگاه داده",
+              },
+              Object {
+                "_id": "mv1zxugowx",
+                "icon": "fa fa-lg fa-fw fa-cog",
+                "route": "/setting",
+                "title": "تنظیمات نمایه",
+              },
+              Object {
+                "_id": "5hbx1apo23",
+                "icon": "fa fa-lg fa-fw fa-cog",
+                "route": "/setting",
+                "title": "تنظیمات عملکرد",
+              },
+            ],
+            "title": "تنظیمات",
+          },
+          Object {
+            "_id": "5kjppjj6zxb",
+            "icon": "fa fa-lg fa-fw fa-user",
+            "items": Array [
+              Object {
+                "_id": "xxkd6pdo47c",
+                "icon": "fa fa-lg fa-fw fa-address-book-o ",
+                "route": "/users/users",
+                "title": "حساب های کاربری",
+              },
+              Object {
+                "_id": "mn12ducxbod",
+                "icon": "fa fa-lg fa-fw fa-users",
+                "route": "/users/groups",
+                "title": "گروه ها",
+              },
+              Object {
+                "_id": "hhsm4u60veo",
+                "icon": "fa fa-lg fa-fw fa-building-o",
+                "route": "/users/departments",
+                "title": "دپارتمان ها",
+              },
+            ],
+            "title": "کاربران",
+          },
+          Object {
+            "_id": "lkvxz5lqqj",
+            "icon": "fa fa-lg fa-fw fa-hdd-o",
+            "route": "/backup",
+            "title": "نسخه پشتیبان",
+          },
+        ],
+        "title": "مدیریت سیستم",
+      },
+      Object {
+        "_id": "0jli8e7w7q",
+        "icon": "fa fa-lg fa-fw fa-id-card-o",
+        "route": "/baseInformation/base",
+        "title": "مدیریت اطلاعات پایه",
+      },
+      Object {
+        "_id": "kicxfgyfy4m",
+        "icon": "fa fa-lg fa-fw fa-eye",
+        "route": "/process/supervisor",
+        "title": "ناظر",
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,139 @@
+[
+	{
+		"title": "Inbox",
+		"icon": "fad fa-inbox",
+		"route": "inbox"
+	},
+	{
+		"title": "Process management",
+		"icon": "fad fa-project-diagram",
+		"route": "process-management",
+		"permission": "PM_FACTORY"
+	},
+	{
+		"title": "System admin",
+		"_id": "system_admin",
+		"icon": "fad fa-user-cog",
+		"permission": "PM_SETUP",
+		"items": [
+			{
+				"title": "configs",
+				"_id": "settings",
+				"icon": "fad fa-cog",
+				"items": [
+					{
+						"title": "Process categories",
+						"icon": "fad fa-sitemap",
+						"route": "process-categories",
+						"permission": "PM_FACTORY"
+					},
+					{
+						"title": "Database management",
+						"icon": "fad fa-database",
+						"route": "pm-tables",
+						"permission": "PM_SETUP_PM_TABLES"
+					},
+					{
+						"title": "Menu settings",
+						"icon": "fad fa-bars",
+						"route": "menu",
+						"permission": "PM_SETUP"
+					},
+					{
+						"title": "Site settings",
+						"icon":"fas fa-palette",
+						"route": "customSettings",
+						"permission": "PM_SETUP"
+					},
+					{
+						"_id": "logs",
+						"title": "System Logs",
+						"icon": "fad fa-history",
+						"route": "logs",
+						"permission": "PM_SETUP"
+					}
+				]
+			},
+			{
+				"title": "Users",
+				"icon": "fad fa-user",
+				"permission": "PM_USERS",
+				"items": [
+					{
+						"title": "User accounts",
+						"icon": "fad fa-address-book",
+						"route": "users",
+						"permission": "PM_USERS"
+					},
+					{
+						"title": "User groups",
+						"icon": "fad fa-users",
+						"route": "groups",
+						"permission": "PM_USERS"
+
+					},
+					{
+						"title": "Departments",
+						"icon": "fad fa-building",
+						"route": "departments",
+						"permission": "PM_USERS"
+					}
+				]
+			},
+			{
+				"title": "Manage dashboards",
+				"icon": "fad fa-id-card",
+				"permission": "PM_USERS",
+				"items": [
+					{
+						"title": "Role management",
+						"icon": "fad fa-address-book-o ",
+						"route": "setting/bi-roles",
+						"permission": "PM_USERS"
+					},
+					{
+						"title": "Permission management",
+						"icon": "fad fa-users",
+						"route": "setting/bi-permissions",
+						"permission": "PM_USERS"
+					}
+				]
+			},
+			{
+				"title": "Backup",
+				"icon": "fad fa-hdd",
+				"route": "backup",
+				"permission": "PM_SETUP"
+			}
+		]
+	},
+	{
+		"title": "Settings",
+		"permission": "PM_ARIAN_SETTINGS",
+		"icon": "fad fa-cogs",
+		"_id": "login_homepage",
+		"items": [
+			{
+				"title": "Profile",
+				"icon": "fad fa-user",
+				"route": "profile"
+			},
+			{
+				"title": "Homepage setting",
+				"icon": "fad fa-fw fa-cog",
+				"route": "setting"
+			}]
+	},
+	{
+		"title": "Basic information",
+		"route": "baseInformation",
+		"icon": "fad fa-server",
+		"permission": "PM_SETUP_PM_TABLES"
+	},
+	{
+		"title": "Supervisor",
+		"icon": "fad fa-user-visor",
+		"route": "supervisor",
+		"permission": "IS_SUPERVISOR"
+	}
+]

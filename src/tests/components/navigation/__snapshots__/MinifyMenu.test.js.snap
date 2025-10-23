@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , MinifyMenu Component 1`] = `
+<span
+  className="minifyme"
+  data-action="minifyMenu"
+  onClick={[Function]}
+>
+  <i
+    className="fa fa-arrow-circle-left hit"
+  />
+</span>
+`;

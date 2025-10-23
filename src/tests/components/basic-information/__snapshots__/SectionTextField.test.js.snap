@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , SectionTextField Component 1`] = `
+<section>
+  <label
+    className="input"
+  >
+    <i
+      className="icon-prepend fa undefined"
+    />
+    <input />
+  </label>
+</section>
+`;

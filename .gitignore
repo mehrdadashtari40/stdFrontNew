@@ -1,0 +1,8 @@
+.env
+build/*
+node_modules/*
+node_modules1/*
+.idea/*
+codealike.json
+dist/*
+yarn-error.log

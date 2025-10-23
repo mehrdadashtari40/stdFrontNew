@@ -1,0 +1,972 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Newnibox Component 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": 70,
+    }
+  }
+>
+  <div
+    className="row sMain"
+  >
+    <div
+      className="col-md-3 card"
+      onClick={[Function]}
+    >
+      <ScalerChart
+        Cstyle="avgcard"
+        title=""
+      />
+    </div>
+    <div
+      className="col-md-3 card"
+      onClick={[Function]}
+    >
+      <ScalerChart
+        Cstyle="avgcard"
+        title=""
+      />
+    </div>
+    <div
+      className="col-md-3 card"
+      onClick={[Function]}
+    >
+      <ScalerChart
+        Cstyle="avgcard"
+        title=""
+      />
+    </div>
+    <div
+      className="col-md-3 card"
+      onClick={[Function]}
+    >
+      <ScalerChart
+        Cstyle="avgcard"
+        title=""
+      />
+    </div>
+  </div>
+  <div
+    className="searchBarPart"
+  >
+    <div
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col col-md-6 rightSide"
+        >
+          <div
+            className="row rightTop"
+          >
+            <div
+              className="col col-md-8"
+            >
+              <input
+                className="radioInput"
+                name="action"
+                onChange={[Function]}
+                type="radio"
+                value="todo"
+              />
+              <label
+                className="radioLabel"
+              >
+                دریافت شده
+              </label>
+              <input
+                className="radioInput"
+                name="action"
+                onChange={[Function]}
+                type="radio"
+                value="sent"
+              />
+              <label
+                className="radioLabel"
+              >
+                ارسال شده
+              </label>
+              <input
+                className="radioInput"
+                name="action"
+                onChange={[Function]}
+                type="radio"
+                value="unassigned"
+              />
+              <label
+                className="radioLabel"
+              >
+                 اختصاص نیافته
+              </label>
+              <input
+                className="radioInput"
+                name="action"
+                onChange={[Function]}
+                type="radio"
+                value="draft"
+              />
+              <label
+                className="radioLabel"
+              >
+                پیش نویس
+              </label>
+            </div>
+            <div
+              className="col col-md-4"
+            >
+              <input
+                className="radioInput"
+                name="filter"
+                onChange={[Function]}
+                type="radio"
+                value="read"
+              />
+              <label
+                className="radioLabel"
+              >
+                خوانده شده
+              </label>
+              <input
+                className="radioInput"
+                name="filter"
+                onChange={[Function]}
+                type="radio"
+                value="unread"
+              />
+              <label
+                className="radioLabel"
+              >
+                خوانده نشده
+              </label>
+            </div>
+          </div>
+          <div
+            className="row rigtBottom"
+          >
+            <div
+              className="col col-md-8"
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <label
+                style={
+                  Object {
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                 از تاریخ
+              </label>
+              <input
+                className="dateFrom"
+                format="jYYYY/jMM/jDD"
+                id="datePicker"
+                onChange={[Function]}
+                placeholder="انتخاب تاریخ"
+              />
+              <label
+                style={
+                  Object {
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                  }
+                }
+              >
+                تا تاریخ
+              </label>
+              <input
+                className="dateTo"
+                format="jYYYY/jMM/jDD"
+                id="datePicker"
+                onChange={[Function]}
+                placeholder="انتخاب تاریخ"
+              />
+            </div>
+            <div
+              className="col col-md-4"
+            >
+              <select
+                className="newerThan"
+                onChange={[Function]}
+              >
+                <option
+                  value=" "
+                >
+                  انتخاب بازه زمانی
+                </option>
+                <option
+                  value="-1 Days"
+                >
+                  ۱ روز اخیر
+                </option>
+                <option
+                  value="-1 Weeks"
+                >
+                  ۱ هفته اخیر
+                </option>
+                <option
+                  value="-1 Months"
+                >
+                   ۱ ماه اخیر
+                </option>
+                <option
+                  value="-3 Months"
+                >
+                   ۳ ماه اخیر
+                </option>
+                <option
+                  value="-6 Months"
+                >
+                   ۶ ماه اخیر
+                </option>
+                <option
+                  value="-9 Months"
+                >
+                   ۹ ماه اخیر
+                </option>
+                <option
+                  value="-1 Years"
+                >
+                  ۱ سال اخیر
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col col-md-6 leftSide"
+        >
+          <div
+            className="row leftTop"
+          >
+            <div
+              className="col col-md-5"
+            >
+              <span>
+                الویت زمانی 
+              </span>
+              <label
+                className="checkboxLabel"
+              >
+                <div
+                  className="checkboxGreen"
+                />
+              </label>
+              <input
+                className="checkboxInput"
+                type="checkbox"
+                value="green"
+              />
+              <label
+                className="checkboxLabel"
+              >
+                <div
+                  className="checkboxYellow"
+                />
+              </label>
+              <input
+                className="checkboxInput"
+                type="checkbox"
+                value="yellow"
+              />
+              <label
+                className="checkboxLabel"
+              >
+                <div
+                  className="checkboxRed"
+                />
+              </label>
+              <input
+                className="checkboxInput"
+                type="checkbox"
+                value="red"
+              />
+            </div>
+            <div
+              className="col col-md-7"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col col-md-4"
+                >
+                  <label>
+                    انتخاب برچسپ
+                  </label>
+                </div>
+                <div
+                  className="col col-md-8"
+                >
+                  <Select2
+                    data={Array []}
+                    events={
+                      Array [
+                        Array [
+                          "change.react-select2-wrapper",
+                          "onChange",
+                        ],
+                        Array [
+                          "select2:open.react-select2-wrapper",
+                          "onOpen",
+                        ],
+                        Array [
+                          "select2:close.react-select2-wrapper",
+                          "onClose",
+                        ],
+                        Array [
+                          "select2:select.react-select2-wrapper",
+                          "onSelect",
+                        ],
+                        Array [
+                          "select2:unselect.react-select2-wrapper",
+                          "onUnselect",
+                        ],
+                      ]
+                    }
+                    multiple={true}
+                    options={
+                      Object {
+                        "placeholder": "search by tags",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row leftBottom"
+          >
+            <div
+              className="search"
+            >
+              <select
+                className="processFilter"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "width": "24%",
+                  }
+                }
+              >
+                <option
+                  value=""
+                >
+                  جستجو براساس فرایند
+                </option>
+              </select>
+              <input
+                className="searchTerm"
+                id="searchBox"
+                placeholder="جستجو ..."
+                type="text"
+              />
+              <button
+                className="searchButton"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-search"
+                />
+              </button>
+              <button
+                className="resetBtn"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-refresh resetIcon"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="table-wrap custom-scroll"
+  >
+    <JarvisWidget
+      collapsed={false}
+      color={false}
+      colorbutton={false}
+      custombutton={false}
+      deletebutton={false}
+      editbutton={false}
+      fullscreenbutton={true}
+      hidden={false}
+      load={false}
+      refresh={false}
+      sortable={true}
+      togglebutton={false}
+    >
+      <header>
+        <nav
+          className="inbox_header_item_bx"
+        >
+          <a
+            className="btn btn_inbox"
+          >
+            <i
+              className="fa fa-inbox"
+            />
+            کارتابل
+          </a>
+        </nav>
+      </header>
+      <div
+        className="inbox-body1 no-content-padding1 no-padding"
+        id="inbox-content"
+      >
+        <div
+          className="col-md-12 border-box"
+        >
+          <div
+            className="margin-top-10"
+          >
+            <div
+              className="table-wrap custom-scroll"
+            >
+              <div
+                className="text-center"
+                style={
+                  Object {
+                    "margin": 30,
+                  }
+                }
+              >
+                <b />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        className="btn btn-primary pull-right hidden-desktop visible-tablet"
+        id="compose-mail-mini"
+      >
+        <strong>
+          <i
+            className="fa fa-file fa-lg"
+          />
+        </strong>
+      </a>
+    </JarvisWidget>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="ServiceModalLabel"
+    className="modal fade"
+    id="caseHistoryModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="ServiceModalLabel"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <div
+                    className="tab-pane active"
+                    id="tab_default_4"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="ServiceModalLabel"
+    className="modal fade"
+    id="processInfoModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="ServiceModalLabel"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <div
+                    className="tab-pane active"
+                    id="tab_default_4"
+                  >
+                    <Spinner />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="ServiceModalLabel"
+    className="modal fade"
+    id="taskInfoModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="ServiceModalLabel"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <div
+                    className="tab-pane active"
+                    id="tab_default_4"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby=""
+    className="modal fade"
+    id="tagModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id=""
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <t
+                    alignActions="middle"
+                    allowDuplicates={false}
+                    availableRef={null}
+                    canFilter={true}
+                    disabled={false}
+                    filter={null}
+                    filterCallback={[Function]}
+                    filterPlaceholder=""
+                    icons={
+                      Object {
+                        "moveAllLeft": Array [
+                          <span
+                            className="fa fa-chevron-left"
+                          />,
+                          <span
+                            className="fa fa-chevron-left"
+                          />,
+                        ],
+                        "moveAllRight": Array [
+                          <span
+                            className="fa fa-chevron-right"
+                          />,
+                          <span
+                            className="fa fa-chevron-right"
+                          />,
+                        ],
+                        "moveDown": <span
+                          className="fa fa-chevron-down"
+                        />,
+                        "moveLeft": <span
+                          className="fa fa-chevron-left"
+                        />,
+                        "moveRight": <span
+                          className="fa fa-chevron-right"
+                        />,
+                        "moveUp": <span
+                          className="fa fa-chevron-up"
+                        />,
+                      }
+                    }
+                    id={null}
+                    lang={
+                      Object {
+                        "availableFilterHeader": "Filter available",
+                        "availableHeader": "Available",
+                        "moveAllLeft": "Move all left",
+                        "moveAllRight": "Move all right",
+                        "moveDown": "Move item down",
+                        "moveLeft": "Move left",
+                        "moveRight": "Move right",
+                        "moveUp": "Move item up",
+                        "noAvailableOptions": "No available options",
+                        "noSelectedOptions": "No selected options",
+                        "selectedFilterHeader": "Filter selected",
+                        "selectedHeader": "Selected",
+                      }
+                    }
+                    moveKeyCodes={
+                      Array [
+                        32,
+                        13,
+                      ]
+                    }
+                    name={null}
+                    onChange={[Function]}
+                    onFilterChange={null}
+                    options={Array []}
+                    preserveSelectOrder={null}
+                    selected={Array []}
+                    selectedRef={null}
+                    showHeaderLabels={false}
+                    showNoOptionsText={false}
+                    showOrderButtons={false}
+                    simpleValue={true}
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby=""
+    className="modal fade"
+    id="VariableModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id=""
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <form
+            action=""
+            className="smart-form"
+            id="service-form"
+            method="post"
+          >
+            <div
+              className="tabbable-panel"
+            >
+              <div
+                className="tabbable-line"
+                id="tabs"
+              >
+                <div
+                  className="tab-content add_service_modal_bx"
+                >
+                  <table
+                    className="table table-bordered"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          className="center"
+                        >
+                           
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

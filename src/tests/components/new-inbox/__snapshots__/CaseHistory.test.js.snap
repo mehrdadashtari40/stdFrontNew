@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , CaseHistory Component 1`] = `
+<div>
+  <table
+    className="table table-bordered"
+  >
+    <thead>
+      <tr>
+        <th />
+        <th />
+        <th />
+        <th />
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="3232592545e575a11045055091238715"
+      >
+        <td>
+          Task 2
+        </td>
+        <td>
+          Administrator admin
+        </td>
+        <td>
+          14:29:38 0777/09/17
+        </td>
+        <td />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

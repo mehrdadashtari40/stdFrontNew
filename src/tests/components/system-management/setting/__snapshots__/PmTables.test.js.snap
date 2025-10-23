@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , PmTables Component 1`] = `
+<div
+  className="animated fadeInDown"
+  id="main"
+  role="main"
+>
+  <iframe
+    id="my-iframe"
+    name="my-iframe"
+    sandbox="allow-top-navigation allow-same-origin allow-scripts allow-forms allow-modals allow-popups"
+    src="http://ls.arian.co.ir:8081/syszums/fa/modern/pmTables?sid=null"
+    style={
+      Object {
+        "border": "none",
+        "height": "1000px",
+        "marginTop": "80px",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;

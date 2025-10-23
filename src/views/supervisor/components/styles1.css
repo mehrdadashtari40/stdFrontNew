@@ -1,0 +1,10 @@
+.inbox-container #main {
+    margin: 0;
+    margin-top: 50px !important;
+    padding: 0;
+    overflow: auto;
+    height: calc(100vh - 50px);
+}
+.inbox-container #main .datatable-holder{
+    margin: 10px;
+}

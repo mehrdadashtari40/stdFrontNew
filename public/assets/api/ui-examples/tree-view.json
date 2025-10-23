@@ -1,0 +1,12 @@
+{
+  "demo2": [
+    {"content": "<span><i class=\"fa fa-lg fa-folder-open\"></i> بدون دسته بندی</span>", "expanded": true, "children": [
+      {"content": "<span> Administrators</span>" },
+      {"content": "<span> <label class=\"checkbox inline-block\"><input type=\"checkbox\" name=\"checkbox-inline\"><i></i>Michael.Jackson</label> </span>"},
+      {"content": "<span><i class=\"icon-leaf\"></i> Grand Child</span>"}
+    ]},
+    {"content": "<span><i class=\"fa fa-lg fa-folder-open\"></i> Parent2</span>", "children": [
+      {"content": "<span><i class=\"icon-leaf\"></i> Child</span>"}
+    ]}
+  ]
+}

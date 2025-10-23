@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , DaynamicDataTable Component 1`] = `
+<div>
+  <Datatable
+    className="table table-striped table-bordered table-hover"
+    filter={true}
+    options={
+      Object {
+        "buttons": false,
+        "columns": Array [
+          Object {
+            "class": "",
+            "data": null,
+            "render": [Function],
+          },
+          Object {
+            "class": "",
+            "data": null,
+            "render": [Function],
+          },
+          Object {
+            "class": "",
+            "data": null,
+            "render": [Function],
+          },
+          Object {
+            "class": "",
+            "data": null,
+            "render": [Function],
+          },
+          Object {
+            "class": "",
+            "data": null,
+            "render": [Function],
+          },
+        ],
+        "data": Array [
+          "test : testValue",
+          "id : 11111",
+        ],
+        "iDisplayLength": 10,
+        "order": Array [],
+        "rowID": "",
+      }
+    }
+    paginationLength={true}
+    width="100%"
+  >
+    <thead>
+      <tr>
+        <th
+          className="hasinput"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        >
+          <input
+            className="form-control "
+            id="dateselect_filter"
+            type="text"
+          />
+        </th>
+        <th
+          className="hasinput"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        >
+          <input
+            className="form-control "
+            id="dateselect_filter"
+            type="text"
+          />
+        </th>
+        <th
+          className="hasinput"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        >
+          <input
+            className="form-control "
+            id="dateselect_filter"
+            type="text"
+          />
+        </th>
+        <th
+          className="hasinput"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        >
+          <input
+            className="form-control "
+            id="dateselect_filter"
+            type="text"
+          />
+        </th>
+        <th
+          style={
+            Object {
+              "width": "3%",
+            }
+          }
+        />
+      </tr>
+      <tr>
+        <th
+          data-hide="phone"
+        >
+          <i
+            className=""
+          />
+        </th>
+        <th
+          data-hide="phone"
+        >
+          <i
+            className=""
+          />
+        </th>
+        <th
+          data-hide="phone"
+        >
+          <i
+            className=""
+          />
+        </th>
+        <th
+          data-hide="phone"
+        >
+          <i
+            className=""
+          />
+        </th>
+        <th
+          style={
+            Object {
+              "width": "3%",
+            }
+          }
+        >
+          عملیات
+        </th>
+      </tr>
+    </thead>
+  </Datatable>
+  <div
+    aria-hidden="true"
+    aria-labelledby="ServiceModalLabel"
+    className="modal fade"
+    id="editRowModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      style={
+        Object {
+          "width": "65%",
+        }
+      }
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <button
+            aria-hidden="true"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            ×
+          </button>
+          <h4
+            className="modal-title"
+            id="ServiceModalLabel"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          />
+        </div>
+        <div
+          className=""
+        >
+          <ModalForm
+            data={Array []}
+            edit={false}
+            structure={
+              Array [
+                "test1 : testValue1",
+                "test2 : testValue2",
+                "test3 : testValue3",
+                "test4 : testValue4",
+              ]
+            }
+            submit={[Function]}
+            t={[Function]}
+          />
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn_inbox btn_datatable"
+            data-dismiss="modal"
+            type="button"
+          >
+            <i
+              className="fa fa-window-close "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make Snapshot file , Basic Information Component 1`] = `
+<div
+  id="content"
+>
+  <div
+    className="row"
+  >
+    <BigBreadcrumbs
+      className="col-xs-12 col-sm-7 col-md-7 col-lg-4"
+      icon="fa fa-fw fa-circle-o-notch"
+      items={
+        Array [
+          "مدیریت اطلاعات پایه ",
+        ]
+      }
+    />
+  </div>
+  <WidgetGrid>
+    <div
+      className="row"
+    >
+      <article
+        className="col-sm-12 col-md-12 col-lg-12"
+      >
+        <JarvisWidget
+          collapsed={false}
+          color={false}
+          colorbutton={false}
+          custombutton={false}
+          deletebutton={false}
+          editbutton={false}
+          fullscreenbutton={true}
+          hidden={false}
+          load={false}
+          refresh={false}
+          sortable={true}
+          togglebutton={false}
+        >
+          <div
+            className="no-padding"
+          >
+            <h4>
+              انتخاب جدول مورد نظر
+            </h4>
+            <br />
+            <div
+              className="pull-left"
+            >
+              <select
+                id="selected"
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="pull-right"
+            >
+              <button
+                className="btn btn-success"
+                id="add-btn"
+                onClick={[Function]}
+                type="button"
+              >
+                درج اطلاعات
+              </button>
+            </div>
+          </div>
+        </JarvisWidget>
+      </article>
+    </div>
+  </WidgetGrid>
+</div>
+`;
